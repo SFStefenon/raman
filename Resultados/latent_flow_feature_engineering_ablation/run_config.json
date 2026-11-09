@@ -1,0 +1,33 @@
+{
+  "seed": 42,
+  "n_real": 17,
+  "healthy": 7,
+  "sick": 10,
+  "latent_dim": 4,
+  "flow_steps": 350,
+  "synthetic_per_class_every_fold": 30,
+  "pool_per_class": 100,
+  "features": [
+    "SNV",
+    "SG smoothing + SNV",
+    "SG first derivative",
+    "SG second derivative",
+    "Detrend + SNV",
+    "MSC",
+    "PCA (4 components)",
+    "PCA (8 components)",
+    "ANOVA top 64",
+    "ANOVA top 256",
+    "32-band statistics",
+    "SNV + derivative fusion",
+    "FFT magnitude (64)"
+  ],
+  "classifiers": [
+    "PLS-DA",
+    "RBF SVM",
+    "Linear SVM"
+  ],
+  "outer_cv": "17-fold patient-wise leave-one-out",
+  "selected_plsda_feature_posthoc": "ANOVA top 256",
+  "all_classification_experiments_use_original_train_plus_flow_synthetic": true
+}
