@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{Paired out-of-fold change in balanced accuracy for sequential stages.}
+\label{tab:paired_stage_changes}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Reference & Candidate & Delta BA (pp) & CI low & CI high & Recovered & New errors & Delta AUC & Holm p \\
+\midrule
+Step 1 & Step 2 & 0.000 & 0.000 & 0.000 & 0 & 0 & -0.043 & 1.000 \\
+Step 2 & Step 3 & 5.000 & 0.000 & 15.000 & 1 & 0 & -0.014 & 1.000 \\
+Step 1 & Step 3 & 5.000 & 0.000 & 15.000 & 1 & 0 & -0.057 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table*}

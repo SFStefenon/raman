@@ -1,0 +1,4 @@
+Reference,Candidate,DeltaBA_pp,CI_low_pp,CI_high_pp,DeltaSensitivity_pp,DeltaSpecificity_pp,DeltaAUC,Corrected,NewErrors,ExactMcNemarP,HolmP
+Step 1,Step 2,0.0,0.0,0.0,0.0,0.0,-0.02857142857142858,0,0,1.0,1.0
+Step 2,Step 3,0.0,0.0,0.0,0.0,0.0,-0.014285714285714235,0,0,1.0,1.0
+Step 1,Step 3,0.0,0.0,0.0,0.0,0.0,-0.042857142857142816,0,0,1.0,1.0

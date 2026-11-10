@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Step 3 (feature engineering): nested inner-validation candidate comparison; mean paired differences versus Full spectrum. Selections count the outer folds choosing each candidate. Inner validation means are descriptive, not outer-test estimates.}
+\label{tab:step3_candidates}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Configuration & Inner BA & BA SD & Delta BA (pp) & Inner AUC & Cold time (s) & Selections \\
+\midrule
+Full spectrum & 0.877 & 0.044 & +0.0 & 0.974 & 0.355 & 5 \\
+mRMR-64 & 0.863 & 0.078 & -1.4 & 0.944 & 0.164 & 3 \\
+ANOVA-64 & 0.861 & 0.062 & -1.6 & 0.951 & 0.142 & 3 \\
+mRMR-256 & 0.888 & 0.066 & +1.2 & 0.969 & 0.239 & 2 \\
+ANOVA-256 & 0.885 & 0.062 & +0.8 & 0.969 & 0.156 & 2 \\
+Stability-64 & 0.847 & 0.073 & -2.9 & 0.947 & 0.172 & 1 \\
+PCA peaks-128 & 0.728 & 0.083 & -14.8 & 0.776 & 0.149 & 1 \\
+SG derivative + PCA-8 & 0.772 & 0.060 & -10.4 & 0.784 & 0.142 & 0 \\
+PCA-4 & 0.767 & 0.068 & -11.0 & 0.796 & 0.141 & 0 \\
+PCA-8 & 0.756 & 0.071 & -12.1 & 0.772 & 0.141 & 0 \\
+PLS-2 & 0.737 & 0.099 & -13.9 & 0.727 & 0.140 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table*}

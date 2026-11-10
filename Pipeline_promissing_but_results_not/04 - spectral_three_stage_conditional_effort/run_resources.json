@@ -1,0 +1,15 @@
+{
+  "run_wall_s": 919.803609124996,
+  "run_cpu_s": 1233.929712,
+  "total_inner_candidate_evaluations": 425,
+  "outer_pipeline_refits": 51,
+  "stage_search_wall_s": {
+    "1": 51.814843,
+    "2": 738.976839,
+    "3": 115.697396
+  },
+  "peak_process_rss_mb": 658.0625,
+  "platform": "darwin",
+  "cpu_threads": 1,
+  "device": "cpu"
+}

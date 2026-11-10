@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{Patient-level outer-fold results after nested sequential selection. All original patients are held out once. Accuracy-related metrics are based only on original patients.}
+\label{tab:nested_stages}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Stage & Acc. & BA & Sens. & Spec. & AUC & AP & F1 & MCC & Correct \\
+\midrule
+Step 1 & 0.765 & 0.800 & 0.600 & 1.000 & 0.957 & 0.977 & 0.750 & 0.618 & 13 \\
+Step 2 & 0.765 & 0.800 & 0.600 & 1.000 & 0.857 & 0.918 & 0.750 & 0.618 & 13 \\
+Step 3 & 0.824 & 0.850 & 0.700 & 1.000 & 0.886 & 0.941 & 0.824 & 0.700 & 14 \\
+\bottomrule
+\end{tabular}
+\end{table*}

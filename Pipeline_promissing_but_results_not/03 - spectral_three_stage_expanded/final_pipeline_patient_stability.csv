@@ -1,0 +1,18 @@
+patient,actual,correct_rate,prediction_rate,n_runs
+healthy/P1_saudavel,0,1.0,0.0,3
+healthy/P2_saudavel,0,1.0,0.0,3
+healthy/P3_saudavel,0,1.0,0.0,3
+healthy/P4_saudavel,0,1.0,0.0,3
+healthy/P5_saudavel,0,1.0,0.0,3
+healthy/P6_saudavel,0,0.0,1.0,3
+healthy/P7_saudavel,0,1.0,0.0,3
+sick/A10_ com Nefrite lúpica,1,1.0,1.0,3
+sick/A1_ com DCR,1,0.0,0.0,3
+sick/A2_ com DCR,1,0.0,0.0,3
+sick/A3_ com DCR,1,0.0,0.0,3
+sick/A4_ com DCR,1,0.6666666666666666,0.6666666666666666,3
+sick/A5_ com DCR,1,1.0,1.0,3
+sick/A6_com DCR,1,1.0,1.0,3
+sick/A7_com LRA,1,1.0,1.0,3
+sick/A8_com LRA,1,1.0,1.0,3
+sick/A9_com Glomerulopatia,1,1.0,1.0,3

@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{Prespecified fixed benchmark recipes under the same patient-level outer holdouts. The historical Flow + ANOVA-256 recipe was chosen on this cohort in earlier work and is therefore not an independent comparator.}
+\label{tab:fixed_benchmarks}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Fixed benchmark & Acc. & BA & Sens. & Spec. & AUC & F1 & MCC & Correct \\
+\midrule
+Real-only PLS-DA & 0.706 & 0.729 & 0.600 & 0.857 & 0.743 & 0.706 & 0.457 & 12 \\
+Real-only Elastic-net & 0.824 & 0.850 & 0.700 & 1.000 & 1.000 & 0.824 & 0.700 & 14 \\
+Flow + ANOVA256 + PLS-DA & 0.824 & 0.829 & 0.800 & 0.857 & 0.871 & 0.842 & 0.648 & 14 \\
+\bottomrule
+\end{tabular}
+\end{table*}

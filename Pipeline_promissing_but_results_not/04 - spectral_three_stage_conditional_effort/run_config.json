@@ -1,0 +1,67 @@
+{
+  "mode": "complete",
+  "n_total_patients": 17,
+  "n_tested_patients": 17,
+  "n_healthy": 7,
+  "n_sick": 10,
+  "channels": 2048,
+  "root": "/Users/stefanostefenon/Library/CloudStorage/GoogleDrive-stefanoblumenau@gmail.com/O meu disco/Pesquisa/AVALIAC\u0327A\u0303O/Rima/paper 2",
+  "healthy_directory": "/Users/stefanostefenon/Library/CloudStorage/GoogleDrive-stefanoblumenau@gmail.com/O meu disco/Pesquisa/AVALIAC\u0327A\u0303O/Rima/paper 2/saudaveis",
+  "sick_directory": "/Users/stefanostefenon/Library/CloudStorage/GoogleDrive-stefanoblumenau@gmail.com/O meu disco/Pesquisa/AVALIAC\u0327A\u0303O/Rima/paper 2/doentes",
+  "classifiers": [
+    "PLS-DA",
+    "Elastic-net LR",
+    "Linear SVM",
+    "RBF SVM",
+    "Random Forest",
+    "Extra Trees",
+    "KNN"
+  ],
+  "augmentations": [
+    "Real only",
+    "Latent Flow 15/class",
+    "Latent Flow 30/class",
+    "Conditional Diffusion 15/class",
+    "Conditional Diffusion 30/class",
+    "Conditional GAN 15/class",
+    "Conditional GAN 30/class"
+  ],
+  "selectors": [
+    "Full spectrum",
+    "PCA-4",
+    "PCA-8",
+    "PLS-2",
+    "SG derivative + PCA-8",
+    "ANOVA-64",
+    "ANOVA-256",
+    "mRMR-64",
+    "mRMR-256",
+    "Stability-64",
+    "PCA peaks-128"
+  ],
+  "feature_k": [
+    64,
+    128,
+    256
+  ],
+  "selection_criterion": "inner patient LOOCV balanced_accuracy > AUC > accuracy > predefined candidate order",
+  "outer_protocol": "patient-level LOOCV; within each fold, nested sequential selection",
+  "results_status": "EXPLORATORY_NESTED_LOOCV",
+  "auc_note": "Pooled outer AUC uses training-std-normalized decision margins, not calibrated probabilities.",
+  "augmentation_note": "All generative methods are class-conditional in a training-fold PCA latent space.",
+  "compute_note": "Candidate cold-start costs charge cached generator fits to every candidate; total actual execution in run_resources.json.",
+  "flow_steps": 300,
+  "flow_ode_steps": 32,
+  "diffusion_steps": 350,
+  "diffusion_timesteps": 80,
+  "gan_steps": 450,
+  "latent_dim": 4,
+  "augmentation_counts": [
+    15,
+    30
+  ],
+  "seed": 42,
+  "python": "3.9.20 | packaged by conda-forge | (main, Sep 30 2024, 17:48:00) \n[Clang 17.0.6 ]",
+  "sklearn_version": "1.5.2",
+  "torch_version": "2.8.0"
+}

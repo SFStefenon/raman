@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Step 2 (augmentation): nested inner-validation candidate comparison; mean paired differences versus Real only. Selections count the outer folds choosing each candidate. Inner validation means are descriptive, not outer-test estimates.}
+\label{tab:step2_candidates}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Configuration & Inner BA & BA SD & Delta BA (pp) & Inner AUC & Cold time (s) & Selections \\
+\midrule
+Real only & 0.847 & 0.018 & +0.0 & 0.975 & 0.079 & 8 \\
+Conditional Diffusion 15/class & 0.834 & 0.045 & -1.3 & 0.934 & 0.396 & 3 \\
+Conditional GAN 30/class & 0.806 & 0.088 & -4.1 & 0.891 & 0.771 & 3 \\
+Conditional GAN 15/class & 0.814 & 0.060 & -3.3 & 0.923 & 0.602 & 2 \\
+Conditional Diffusion 30/class & 0.783 & 0.056 & -6.4 & 0.921 & 0.566 & 1 \\
+Latent Flow 15/class & 0.809 & 0.033 & -3.8 & 0.924 & 0.361 & 0 \\
+Latent Flow 30/class & 0.770 & 0.049 & -7.6 & 0.906 & 0.526 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table*}

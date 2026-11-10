@@ -1,0 +1,58 @@
+\begin{table*}[t]
+\centering
+\caption{Training-fold-only spectral fidelity and inner-CV classification results. Lower RMSE is closer in mean or standard deviation, diversity near unity matches real spectral dispersion, and nearest-neighbor distance ratio near unity matches real patient separation. None is a clinical validity guarantee.}
+\label{tab:augmentation_quality}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Augmentation & Per class & Inner BA & Mean RMSE & SD RMSE & Diversity & NN distance ratio & Cold (s) \\
+\midrule
+Baseline Perturbation & 10 & 0.805 & 0.096 & 0.066 & 0.939 & 0.071 & 0.18 \\
+Baseline Perturbation & 25 & 0.834 & 0.065 & 0.039 & 0.979 & 0.071 & 0.32 \\
+Baseline Perturbation & 50 & 0.826 & 0.044 & 0.028 & 0.994 & 0.071 & 0.57 \\
+Conditional Diffusion & 10 & 0.803 & 0.118 & 0.144 & 0.883 & 0.773 & 0.47 \\
+Conditional Diffusion & 25 & 0.818 & 0.087 & 0.123 & 0.952 & 0.778 & 0.64 \\
+Conditional Diffusion & 50 & 0.793 & 0.074 & 0.116 & 0.980 & 0.782 & 0.92 \\
+Conditional GAN & 10 & 0.800 & 0.199 & 0.182 & 0.862 & 0.965 & 0.82 \\
+Conditional GAN & 25 & 0.764 & 0.195 & 0.175 & 0.911 & 0.975 & 0.99 \\
+Conditional GAN & 50 & 0.739 & 0.190 & 0.172 & 0.925 & 0.975 & 1.27 \\
+Conditional VAE & 10 & 0.777 & 0.134 & 0.191 & 0.551 & 0.707 & 0.58 \\
+Conditional VAE & 25 & 0.745 & 0.125 & 0.181 & 0.579 & 0.707 & 0.76 \\
+Conditional VAE & 50 & 0.755 & 0.126 & 0.180 & 0.582 & 0.705 & 1.05 \\
+Conditional WGAN-GP & 10 & 0.827 & 0.444 & 0.271 & 0.258 & 1.264 & 1.50 \\
+Conditional WGAN-GP & 25 & 0.785 & 0.445 & 0.268 & 0.273 & 1.266 & 1.67 \\
+Conditional WGAN-GP & 50 & 0.760 & 0.444 & 0.267 & 0.278 & 1.263 & 1.97 \\
+Fourier Perturbation & 10 & 0.831 & 0.098 & 0.069 & 0.937 & 0.086 & 0.18 \\
+Fourier Perturbation & 25 & 0.824 & 0.061 & 0.040 & 0.981 & 0.086 & 0.32 \\
+Fourier Perturbation & 50 & 0.832 & 0.045 & 0.028 & 0.992 & 0.086 & 0.57 \\
+Gaussian Mixture & 10 & 0.801 & 0.099 & 0.094 & 0.802 & 0.684 & 0.20 \\
+Gaussian Mixture & 25 & 0.793 & 0.068 & 0.072 & 0.841 & 0.689 & 0.36 \\
+Gaussian Mixture & 50 & 0.759 & 0.056 & 0.064 & 0.855 & 0.686 & 0.61 \\
+Latent Flow & 10 & 0.782 & 0.097 & 0.117 & 0.780 & 0.695 & 0.40 \\
+Latent Flow & 25 & 0.769 & 0.073 & 0.096 & 0.824 & 0.698 & 0.56 \\
+Latent Flow & 50 & 0.766 & 0.062 & 0.084 & 0.836 & 0.693 & 0.84 \\
+Noise Injection & 10 & 0.824 & 0.099 & 0.070 & 0.973 & 0.206 & 0.18 \\
+Noise Injection & 25 & 0.822 & 0.064 & 0.042 & 1.019 & 0.206 & 0.32 \\
+Noise Injection & 50 & 0.833 & 0.046 & 0.031 & 1.034 & 0.206 & 0.57 \\
+PCA-Gaussian & 10 & 0.832 & 0.108 & 0.114 & 0.949 & 0.895 & 0.19 \\
+PCA-Gaussian & 25 & 0.817 & 0.074 & 0.098 & 1.007 & 0.896 & 0.33 \\
+PCA-Gaussian & 50 & 0.804 & 0.058 & 0.092 & 1.019 & 0.895 & 0.57 \\
+Residual Bootstrap & 10 & 0.736 & 0.153 & 0.121 & 1.074 & 0.860 & 0.19 \\
+Residual Bootstrap & 25 & 0.770 & 0.126 & 0.106 & 1.124 & 0.854 & 0.32 \\
+Residual Bootstrap & 50 & 0.780 & 0.117 & 0.103 & 1.143 & 0.854 & 0.51 \\
+Smooth Warping & 10 & 0.800 & 0.142 & 0.112 & 1.018 & 0.795 & 0.19 \\
+Smooth Warping & 25 & 0.842 & 0.110 & 0.096 & 1.081 & 0.799 & 0.33 \\
+Smooth Warping & 50 & 0.853 & 0.099 & 0.092 & 1.097 & 0.798 & 0.58 \\
+Spectral Mixup & 10 & 0.808 & 0.089 & 0.079 & 0.834 & 0.203 & 0.18 \\
+Spectral Mixup & 25 & 0.806 & 0.057 & 0.055 & 0.868 & 0.204 & 0.33 \\
+Spectral Mixup & 50 & 0.813 & 0.041 & 0.047 & 0.879 & 0.204 & 0.59 \\
+Spectral SMOTE & 10 & 0.802 & 0.083 & 0.100 & 0.740 & 0.380 & 0.19 \\
+Spectral SMOTE & 25 & 0.800 & 0.056 & 0.079 & 0.780 & 0.380 & 0.35 \\
+Spectral SMOTE & 50 & 0.815 & 0.044 & 0.074 & 0.787 & 0.381 & 0.61 \\
+Spectral Shift & 10 & 0.801 & 0.152 & 0.116 & 1.033 & 0.781 & 0.19 \\
+Spectral Shift & 25 & 0.811 & 0.126 & 0.103 & 1.090 & 0.785 & 0.35 \\
+Spectral Shift & 50 & 0.801 & 0.114 & 0.099 & 1.104 & 0.782 & 0.64 \\
+\bottomrule
+\end{tabular}
+\end{table*}

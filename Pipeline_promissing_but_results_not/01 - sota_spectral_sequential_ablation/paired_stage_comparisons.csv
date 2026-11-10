@@ -1,0 +1,4 @@
+Reference,Candidate,DeltaBA_pp,CI_low_pp,CI_high_pp,Corrected,NewErrors,ExactMcNemarP,HolmP
+Step 1,Step 2,0.0,0.0,0.0,0,0,1.0,1.0
+Step 2,Step 3,5.000000000000004,0.0,15.000000000000002,1,0,1.0,1.0
+Step 1,Step 3,5.000000000000004,0.0,15.000000000000002,1,0,1.0,1.0

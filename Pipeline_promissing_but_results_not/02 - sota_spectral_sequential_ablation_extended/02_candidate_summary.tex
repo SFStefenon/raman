@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\caption{Step 2 (augmentation): nested inner-validation candidate comparison; mean paired differences versus Real only. Selections count the outer folds choosing each candidate. Inner validation means are descriptive, not outer-test estimates.}
+\label{tab:step2_candidates}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrr}
+\toprule
+Configuration & Inner BA & BA SD & Delta BA (pp) & Inner AUC & Selections \\
+\midrule
+Real only & 0.848 & 0.018 & +0.0 & 0.974 & 13 \\
+Spectral Mixup 30/class & 0.809 & 0.055 & -3.8 & 0.929 & 2 \\
+PCA-Gaussian 30/class & 0.804 & 0.054 & -4.3 & 0.931 & 1 \\
+Latent Flow 15/class & 0.791 & 0.066 & -5.7 & 0.910 & 1 \\
+Latent Flow 30/class & 0.771 & 0.039 & -7.7 & 0.892 & 0 \\
+Latent Flow 60/class & 0.760 & 0.042 & -8.8 & 0.885 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table*}

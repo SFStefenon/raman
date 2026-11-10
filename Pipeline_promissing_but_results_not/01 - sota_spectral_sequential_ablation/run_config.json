@@ -1,0 +1,41 @@
+{
+  "mode": "complete",
+  "n_total_patients": 17,
+  "n_tested_patients": 17,
+  "n_healthy": 7,
+  "n_sick": 10,
+  "channels": 2048,
+  "root": "/Users/stefanostefenon/Library/CloudStorage/GoogleDrive-stefanoblumenau@gmail.com/O meu disco/Pesquisa/AVALIAC\u0327A\u0303O/Rima/paper 2",
+  "healthy_directory": "/Users/stefanostefenon/Library/CloudStorage/GoogleDrive-stefanoblumenau@gmail.com/O meu disco/Pesquisa/AVALIAC\u0327A\u0303O/Rima/paper 2/saudaveis",
+  "sick_directory": "/Users/stefanostefenon/Library/CloudStorage/GoogleDrive-stefanoblumenau@gmail.com/O meu disco/Pesquisa/AVALIAC\u0327A\u0303O/Rima/paper 2/doentes",
+  "classifiers": [
+    "QUANT + Ridge",
+    "MultiRocket-Hydra",
+    "PLS-DA",
+    "Elastic-net LR"
+  ],
+  "augmentations": [
+    "Real only",
+    "Latent Flow 15/class",
+    "Latent Flow 30/class"
+  ],
+  "selectors": [
+    "Full spectrum",
+    "mRMR",
+    "Stability Elastic-Net",
+    "PCA peaks"
+  ],
+  "selection_criterion": "inner LOOCV balanced_accuracy -> ROC_AUC -> accuracy",
+  "outer_protocol": "patient-level LOOCV with nested sequential inner selection",
+  "results_status": "EXPLORATORY_NESTED_LOOCV",
+  "auc_note": "Across fold-selected models, AUC uses training-std-standardized margins; not calibrated probabilities.",
+  "flow_steps": 350,
+  "flow_ode_steps": 32,
+  "augmentation_counts": [
+    15,
+    30
+  ],
+  "seed": 42,
+  "python": "3.9.20 | packaged by conda-forge | (main, Sep 30 2024, 17:48:00) \n[Clang 17.0.6 ]",
+  "aeon_version": "1.0.0"
+}

@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{Repeat fits of the *same selected stage-3 pipeline* per outer patient using different random seeds. Repetitions share patients and are not independent test observations.}
+\label{tab:final_seed_robustness}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Seed repeat & BA & Acc. & Sens. & Spec. & AUC & Correct \\
+\midrule
+0.000 & 0.729 & 0.706 & 0.600 & 0.857 & 0.857 & 12.000 \\
+1.000 & 0.779 & 0.765 & 0.700 & 0.857 & 0.843 & 13.000 \\
+2.000 & 0.779 & 0.765 & 0.700 & 0.857 & 0.843 & 13.000 \\
+\bottomrule
+\end{tabular}
+\end{table*}

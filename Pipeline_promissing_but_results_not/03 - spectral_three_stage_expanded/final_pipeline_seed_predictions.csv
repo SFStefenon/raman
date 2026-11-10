@@ -1,0 +1,52 @@
+outer_fold,patient,repeat,seed,model,augmentation,selector,y_true,y_pred,score,correct
+1,healthy/P1_saudavel,0,100004,Elastic-net LR,Spectral Shift 25/class,Stability-64,0,0,-0.2642059684776106,1
+1,healthy/P1_saudavel,1,10100023,Elastic-net LR,Spectral Shift 25/class,Stability-64,0,0,-0.3208490934050914,1
+1,healthy/P1_saudavel,2,20100042,Elastic-net LR,Spectral Shift 25/class,Stability-64,0,0,-0.39625439074767327,1
+2,healthy/P2_saudavel,0,200007,Elastic-net LR,Smooth Warping 10/class,Full spectrum,0,0,-0.6202224699406546,1
+2,healthy/P2_saudavel,1,10200026,Elastic-net LR,Smooth Warping 10/class,Full spectrum,0,0,-0.3723233536564821,1
+2,healthy/P2_saudavel,2,20200045,Elastic-net LR,Smooth Warping 10/class,Full spectrum,0,0,-0.7733495131445557,1
+3,healthy/P3_saudavel,0,300010,Elastic-net LR,Conditional GAN 25/class,Full spectrum,0,0,-0.3551067387449254,1
+3,healthy/P3_saudavel,1,10300029,Elastic-net LR,Conditional GAN 25/class,Full spectrum,0,0,-1.3310869914993038,1
+3,healthy/P3_saudavel,2,20300048,Elastic-net LR,Conditional GAN 25/class,Full spectrum,0,0,-1.3545400430752255,1
+4,healthy/P4_saudavel,0,400013,Elastic-net LR,Conditional WGAN-GP 10/class,Stability-128,0,0,-1.32738854501825,1
+4,healthy/P4_saudavel,1,10400032,Elastic-net LR,Conditional WGAN-GP 10/class,Stability-128,0,0,-0.6824452080389737,1
+4,healthy/P4_saudavel,2,20400051,Elastic-net LR,Conditional WGAN-GP 10/class,Stability-128,0,0,-0.5917226772019168,1
+5,healthy/P5_saudavel,0,500016,Elastic-net LR,Smooth Warping 25/class,ANOVA-64,0,0,-0.3042114180972748,1
+5,healthy/P5_saudavel,1,10500035,Elastic-net LR,Smooth Warping 25/class,ANOVA-64,0,0,-0.5703420818870606,1
+5,healthy/P5_saudavel,2,20500054,Elastic-net LR,Smooth Warping 25/class,ANOVA-64,0,0,-0.49478394858721536,1
+6,healthy/P6_saudavel,0,600019,Random Forest,Noise Injection 25/class,mRMR-64,0,1,0.9099462360896531,0
+6,healthy/P6_saudavel,1,10600038,Random Forest,Noise Injection 25/class,mRMR-64,0,1,0.9396750224674777,0
+6,healthy/P6_saudavel,2,20600057,Random Forest,Noise Injection 25/class,mRMR-64,0,1,0.9504142644417535,0
+7,healthy/P7_saudavel,0,700022,Elastic-net LR,Conditional WGAN-GP 25/class,mRMR-64,0,0,-1.9778379946603062,1
+7,healthy/P7_saudavel,1,10700041,Elastic-net LR,Conditional WGAN-GP 25/class,mRMR-64,0,0,-1.6941839225877322,1
+7,healthy/P7_saudavel,2,20700060,Elastic-net LR,Conditional WGAN-GP 25/class,mRMR-64,0,0,-2.1138053957236256,1
+8,sick/A10_ com Nefrite lúpica,0,800025,Elastic-net LR,PCA-Gaussian 25/class,Full spectrum,1,1,2.0158130302930237,1
+8,sick/A10_ com Nefrite lúpica,1,10800044,Elastic-net LR,PCA-Gaussian 25/class,Full spectrum,1,1,3.474698954255615,1
+8,sick/A10_ com Nefrite lúpica,2,20800063,Elastic-net LR,PCA-Gaussian 25/class,Full spectrum,1,1,3.7289144106293928,1
+9,sick/A1_ com DCR,0,900028,Elastic-net LR,Spectral Shift 25/class,mRMR-256,1,0,-0.1456314185770415,0
+9,sick/A1_ com DCR,1,10900047,Elastic-net LR,Spectral Shift 25/class,mRMR-256,1,0,-0.12314842750352378,0
+9,sick/A1_ com DCR,2,20900066,Elastic-net LR,Spectral Shift 25/class,mRMR-256,1,0,-0.05914595013364912,0
+10,sick/A2_ com DCR,0,1000031,Elastic-net LR,Real only,mRMR-64,1,0,-0.06672311897882555,0
+10,sick/A2_ com DCR,1,11000050,Elastic-net LR,Real only,mRMR-64,1,0,-0.06621182683806114,0
+10,sick/A2_ com DCR,2,21000069,Elastic-net LR,Real only,mRMR-64,1,0,-0.06453961991019655,0
+11,sick/A3_ com DCR,0,1100034,RBF SVM,Real only,PCA peaks-256,1,0,-0.8568851491921251,0
+11,sick/A3_ com DCR,1,11100053,RBF SVM,Real only,PCA peaks-256,1,0,-0.8568851491921251,0
+11,sick/A3_ com DCR,2,21100072,RBF SVM,Real only,PCA peaks-256,1,0,-0.8568851491921251,0
+12,sick/A4_ com DCR,0,1200037,Elastic-net LR,PCA-Gaussian 25/class,ANOVA-256,1,0,-0.01211984545637833,0
+12,sick/A4_ com DCR,1,11200056,Elastic-net LR,PCA-Gaussian 25/class,ANOVA-256,1,1,0.4749324448509695,1
+12,sick/A4_ com DCR,2,21200075,Elastic-net LR,PCA-Gaussian 25/class,ANOVA-256,1,1,0.024560784075401732,1
+13,sick/A5_ com DCR,0,1300040,Elastic-net LR,Noise Injection 10/class,ANOVA-256,1,1,1.8286305598512809,1
+13,sick/A5_ com DCR,1,11300059,Elastic-net LR,Noise Injection 10/class,ANOVA-256,1,1,1.4643203287642197,1
+13,sick/A5_ com DCR,2,21300078,Elastic-net LR,Noise Injection 10/class,ANOVA-256,1,1,2.207306751189557,1
+14,sick/A6_com DCR,0,1400043,Elastic-net LR,Baseline Perturbation 50/class,Stability-64,1,1,0.4025277391585827,1
+14,sick/A6_com DCR,1,11400062,Elastic-net LR,Baseline Perturbation 50/class,Stability-64,1,1,0.42509105118046503,1
+14,sick/A6_com DCR,2,21400081,Elastic-net LR,Baseline Perturbation 50/class,Stability-64,1,1,0.39381061438509013,1
+15,sick/A7_com LRA,0,1500046,Elastic-net LR,PCA-Gaussian 10/class,mRMR-256,1,1,1.3899445536707231,1
+15,sick/A7_com LRA,1,11500065,Elastic-net LR,PCA-Gaussian 10/class,mRMR-256,1,1,2.1658141077900597,1
+15,sick/A7_com LRA,2,21500084,Elastic-net LR,PCA-Gaussian 10/class,mRMR-256,1,1,1.5776933879226993,1
+16,sick/A8_com LRA,0,1600049,Elastic-net LR,Noise Injection 25/class,Stability-128,1,1,0.8569236782313459,1
+16,sick/A8_com LRA,1,11600068,Elastic-net LR,Noise Injection 25/class,Stability-128,1,1,0.540571900547278,1
+16,sick/A8_com LRA,2,21600087,Elastic-net LR,Noise Injection 25/class,Stability-128,1,1,0.7609784449476008,1
+17,sick/A9_com Glomerulopatia,0,1700052,Elastic-net LR,Smooth Warping 25/class,Full spectrum,1,1,1.0322278243864567,1
+17,sick/A9_com Glomerulopatia,1,11700071,Elastic-net LR,Smooth Warping 25/class,Full spectrum,1,1,0.4794565759741467,1
+17,sick/A9_com Glomerulopatia,2,21700090,Elastic-net LR,Smooth Warping 25/class,Full spectrum,1,1,0.4858032868258374,1

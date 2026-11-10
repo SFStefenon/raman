@@ -1,0 +1,59 @@
+\begin{table*}[t]
+\centering
+\caption{Step 2 (augmentation): nested inner-validation candidate comparison; mean paired differences versus Real only. Selections count the outer folds choosing each candidate. Inner validation means are descriptive, not outer-test estimates.}
+\label{tab:step2_candidates}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Configuration & Inner BA & BA SD & Delta BA (pp) & Inner AUC & Cold time (s) & Selections \\
+\midrule
+Real only & 0.850 & 0.022 & +0.0 & 0.970 & 0.082 & 2 \\
+Smooth Warping 25/class & 0.842 & 0.060 & -0.8 & 0.917 & 0.327 & 2 \\
+Noise Injection 25/class & 0.822 & 0.059 & -2.7 & 0.929 & 0.323 & 2 \\
+PCA-Gaussian 25/class & 0.817 & 0.066 & -3.3 & 0.931 & 0.331 & 2 \\
+Spectral Shift 25/class & 0.811 & 0.057 & -3.9 & 0.911 & 0.352 & 2 \\
+PCA-Gaussian 10/class & 0.832 & 0.051 & -1.8 & 0.946 & 0.190 & 1 \\
+Conditional WGAN-GP 10/class & 0.827 & 0.072 & -2.3 & 0.921 & 1.498 & 1 \\
+Baseline Perturbation 50/class & 0.826 & 0.065 & -2.4 & 0.935 & 0.571 & 1 \\
+Noise Injection 10/class & 0.824 & 0.068 & -2.6 & 0.932 & 0.180 & 1 \\
+Smooth Warping 10/class & 0.800 & 0.077 & -5.0 & 0.902 & 0.189 & 1 \\
+Conditional WGAN-GP 25/class & 0.785 & 0.063 & -6.4 & 0.866 & 1.672 & 1 \\
+Conditional GAN 25/class & 0.764 & 0.086 & -8.6 & 0.855 & 0.988 & 1 \\
+Smooth Warping 50/class & 0.853 & 0.048 & +0.3 & 0.941 & 0.580 & 0 \\
+Baseline Perturbation 25/class & 0.834 & 0.064 & -1.6 & 0.930 & 0.324 & 0 \\
+Noise Injection 50/class & 0.833 & 0.054 & -1.6 & 0.934 & 0.567 & 0 \\
+Fourier Perturbation 50/class & 0.832 & 0.057 & -1.8 & 0.932 & 0.566 & 0 \\
+Fourier Perturbation 10/class & 0.831 & 0.062 & -1.9 & 0.924 & 0.180 & 0 \\
+Fourier Perturbation 25/class & 0.824 & 0.052 & -2.6 & 0.927 & 0.323 & 0 \\
+Conditional Diffusion 25/class & 0.818 & 0.035 & -3.2 & 0.914 & 0.635 & 0 \\
+Spectral SMOTE 50/class & 0.815 & 0.064 & -3.5 & 0.921 & 0.612 & 0 \\
+Spectral Mixup 50/class & 0.813 & 0.043 & -3.7 & 0.922 & 0.590 & 0 \\
+Spectral Mixup 10/class & 0.808 & 0.051 & -4.2 & 0.934 & 0.183 & 0 \\
+Spectral Mixup 25/class & 0.806 & 0.052 & -4.4 & 0.922 & 0.332 & 0 \\
+Baseline Perturbation 10/class & 0.805 & 0.061 & -4.5 & 0.929 & 0.179 & 0 \\
+PCA-Gaussian 50/class & 0.804 & 0.059 & -4.6 & 0.936 & 0.569 & 0 \\
+Conditional Diffusion 10/class & 0.803 & 0.054 & -4.7 & 0.914 & 0.466 & 0 \\
+Spectral SMOTE 10/class & 0.802 & 0.059 & -4.8 & 0.908 & 0.188 & 0 \\
+Spectral Shift 10/class & 0.801 & 0.039 & -4.9 & 0.895 & 0.193 & 0 \\
+Spectral Shift 50/class & 0.801 & 0.053 & -4.9 & 0.903 & 0.644 & 0 \\
+Gaussian Mixture 10/class & 0.801 & 0.045 & -4.9 & 0.923 & 0.205 & 0 \\
+Spectral SMOTE 25/class & 0.800 & 0.063 & -5.0 & 0.909 & 0.345 & 0 \\
+Conditional GAN 10/class & 0.800 & 0.061 & -5.0 & 0.887 & 0.819 & 0 \\
+Conditional Diffusion 50/class & 0.793 & 0.068 & -5.6 & 0.892 & 0.915 & 0 \\
+Gaussian Mixture 25/class & 0.793 & 0.065 & -5.7 & 0.935 & 0.358 & 0 \\
+Latent Flow 10/class & 0.782 & 0.057 & -6.8 & 0.903 & 0.399 & 0 \\
+Residual Bootstrap 50/class & 0.780 & 0.062 & -7.0 & 0.852 & 0.512 & 0 \\
+Conditional VAE 10/class & 0.777 & 0.045 & -7.2 & 0.897 & 0.579 & 0 \\
+Residual Bootstrap 25/class & 0.770 & 0.070 & -8.0 & 0.860 & 0.318 & 0 \\
+Latent Flow 25/class & 0.769 & 0.054 & -8.1 & 0.887 & 0.561 & 0 \\
+Latent Flow 50/class & 0.766 & 0.044 & -8.4 & 0.858 & 0.837 & 0 \\
+Conditional WGAN-GP 50/class & 0.760 & 0.068 & -8.9 & 0.848 & 1.970 & 0 \\
+Gaussian Mixture 50/class & 0.759 & 0.054 & -9.1 & 0.913 & 0.611 & 0 \\
+Conditional VAE 50/class & 0.755 & 0.048 & -9.5 & 0.878 & 1.052 & 0 \\
+Conditional VAE 25/class & 0.745 & 0.057 & -10.5 & 0.888 & 0.755 & 0 \\
+Conditional GAN 50/class & 0.739 & 0.086 & -11.1 & 0.826 & 1.273 & 0 \\
+Residual Bootstrap 10/class & 0.736 & 0.063 & -11.4 & 0.861 & 0.189 & 0 \\
+\bottomrule
+\end{tabular}
+\end{table*}

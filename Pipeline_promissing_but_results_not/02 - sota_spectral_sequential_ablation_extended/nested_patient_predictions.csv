@@ -1,0 +1,52 @@
+outer_fold,patient,step,model,augmentation,selector,y_true,y_pred,score
+1,healthy/P1_saudavel,1,Elastic-net LR,Real only,Full spectrum,0,0,-0.7156644025301909
+1,healthy/P1_saudavel,2,Elastic-net LR,Real only,Full spectrum,0,0,-0.7156644025301909
+1,healthy/P1_saudavel,3,Elastic-net LR,Real only,mRMR-64,0,0,-0.40584746890819484
+2,healthy/P2_saudavel,1,Elastic-net LR,Real only,Full spectrum,0,0,-1.403649877395479
+2,healthy/P2_saudavel,2,Elastic-net LR,PCA-Gaussian 30/class,Full spectrum,0,0,-1.2474226709384206
+2,healthy/P2_saudavel,3,Elastic-net LR,PCA-Gaussian 30/class,mRMR-128,0,0,-1.7018977150235342
+3,healthy/P3_saudavel,1,Elastic-net LR,Real only,Full spectrum,0,0,-0.5871166525748253
+3,healthy/P3_saudavel,2,Elastic-net LR,Real only,Full spectrum,0,0,-0.5871166525748253
+3,healthy/P3_saudavel,3,Elastic-net LR,Real only,mRMR-64,0,0,-0.33710642597352214
+4,healthy/P4_saudavel,1,Elastic-net LR,Real only,Full spectrum,0,0,-0.7256767652911941
+4,healthy/P4_saudavel,2,Elastic-net LR,Spectral Mixup 30/class,Full spectrum,0,0,-0.4101145557517869
+4,healthy/P4_saudavel,3,Elastic-net LR,Spectral Mixup 30/class,mRMR-128,0,0,-0.4638739941959635
+5,healthy/P5_saudavel,1,Elastic-net LR,Real only,Full spectrum,0,0,-0.8080225637723176
+5,healthy/P5_saudavel,2,Elastic-net LR,Real only,Full spectrum,0,0,-0.8080225637723176
+5,healthy/P5_saudavel,3,Elastic-net LR,Real only,Full spectrum,0,0,-0.8080225637723176
+6,healthy/P6_saudavel,1,QUANT + Ridge,Real only,Full spectrum,0,1,2.6570823601656954
+6,healthy/P6_saudavel,2,QUANT + Ridge,Spectral Mixup 30/class,Full spectrum,0,1,2.6468641275119222
+6,healthy/P6_saudavel,3,QUANT + Ridge,Spectral Mixup 30/class,Full spectrum,0,1,2.6468641275119222
+7,healthy/P7_saudavel,1,Elastic-net LR,Real only,Full spectrum,0,0,-1.2264295583662341
+7,healthy/P7_saudavel,2,Elastic-net LR,Real only,Full spectrum,0,0,-1.2264295583662341
+7,healthy/P7_saudavel,3,Elastic-net LR,Real only,mRMR-128,0,0,-1.1824571348175066
+8,sick/A10_ com Nefrite lúpica,1,Elastic-net LR,Real only,Full spectrum,1,1,1.6080407506676215
+8,sick/A10_ com Nefrite lúpica,2,Elastic-net LR,Real only,Full spectrum,1,1,1.6080407506676215
+8,sick/A10_ com Nefrite lúpica,3,Elastic-net LR,Real only,Full spectrum,1,1,1.6080407506676215
+9,sick/A1_ com DCR,1,Elastic-net LR,Real only,Full spectrum,1,0,-0.08885153152242647
+9,sick/A1_ com DCR,2,Elastic-net LR,Real only,Full spectrum,1,0,-0.08885153152242647
+9,sick/A1_ com DCR,3,Elastic-net LR,Real only,mRMR-128,1,1,0.1009272492784286
+10,sick/A2_ com DCR,1,Elastic-net LR,Real only,Full spectrum,1,0,-0.17810327682230936
+10,sick/A2_ com DCR,2,Elastic-net LR,Real only,Full spectrum,1,0,-0.17810327682230936
+10,sick/A2_ com DCR,3,Elastic-net LR,Real only,mRMR-128,1,0,-0.08158704495807514
+11,sick/A3_ com DCR,1,RBF SVM,Real only,Full spectrum,1,0,-0.7166152609410762
+11,sick/A3_ com DCR,2,RBF SVM,Real only,Full spectrum,1,0,-0.7166152609410762
+11,sick/A3_ com DCR,3,RBF SVM,Real only,PCA peaks-64,1,0,-1.0950740101248686
+12,sick/A4_ com DCR,1,Elastic-net LR,Real only,Full spectrum,1,0,-0.3285063515820678
+12,sick/A4_ com DCR,2,Elastic-net LR,Latent Flow 15/class,Full spectrum,1,0,-0.6770513737950528
+12,sick/A4_ com DCR,3,Elastic-net LR,Latent Flow 15/class,mRMR-128,1,0,-0.4195766256115106
+13,sick/A5_ com DCR,1,Elastic-net LR,Real only,Full spectrum,1,1,2.0815841082203623
+13,sick/A5_ com DCR,2,Elastic-net LR,Real only,Full spectrum,1,1,2.0815841082203623
+13,sick/A5_ com DCR,3,Elastic-net LR,Real only,mRMR-128,1,1,1.952464839927621
+14,sick/A6_com DCR,1,Elastic-net LR,Real only,Full spectrum,1,1,0.6361242129369091
+14,sick/A6_com DCR,2,Elastic-net LR,Real only,Full spectrum,1,1,0.6361242129369091
+14,sick/A6_com DCR,3,Elastic-net LR,Real only,mRMR-64,1,1,0.49717163470430403
+15,sick/A7_com LRA,1,Elastic-net LR,Real only,Full spectrum,1,1,1.3699045334784596
+15,sick/A7_com LRA,2,Elastic-net LR,Real only,Full spectrum,1,1,1.3699045334784596
+15,sick/A7_com LRA,3,Elastic-net LR,Real only,Stability-64,1,1,1.6741173875901854
+16,sick/A8_com LRA,1,Elastic-net LR,Real only,Full spectrum,1,1,1.0771603740716251
+16,sick/A8_com LRA,2,Elastic-net LR,Real only,Full spectrum,1,1,1.0771603740716251
+16,sick/A8_com LRA,3,Elastic-net LR,Real only,mRMR-64,1,1,1.118061425080467
+17,sick/A9_com Glomerulopatia,1,Elastic-net LR,Real only,Full spectrum,1,1,0.20219702609090845
+17,sick/A9_com Glomerulopatia,2,Elastic-net LR,Real only,Full spectrum,1,1,0.20219702609090845
+17,sick/A9_com Glomerulopatia,3,Elastic-net LR,Real only,mRMR-64,1,1,0.41103957943790903
