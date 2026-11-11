@@ -75,21 +75,6 @@ The manuscript uses **patient-level leave-one-out cross-validation (LOOCV)**:
 
 The study reports accuracy, balanced accuracy, sensitivity (renal-disorder group), specificity (healthy group), and area under the receiver operating characteristic curve (ROC-AUC). Its benchmarking experiment compares the full method with real-only classifiers, including SVM variants, elastic-net logistic regression, random forest, XGBoost, SE-ResNet1D, a Patch Transformer, and PLS-DA.
 
-## Reported benchmark performance
-
-The current manuscript's benchmark table reports:
-
-| Metric | Latent Flow + ANOVA-256 + PLS-DA |
-| --- | ---: |
-| Accuracy | **82.35%** |
-| Balanced accuracy | **85.00%** |
-| Sensitivity (renal-disorder class) | **70.00%** |
-| Specificity (healthy class) | **100.00%** |
-| ROC-AUC | **0.857** |
-| Correctly classified original patients | **14 / 17** |
-
-These are the manuscript's **benchmarking results**, rather than the scores from its separate feature-engineering ablation. Although the proposed pipeline obtained the highest observed balanced accuracy among the tested benchmark methods, **exact paired McNemar tests did not establish statistically significant superiority after Holm correction**. Independent clinical validation is still required.
-
 ## Research limitations
 
 The cohort contains only 17 patients and combines multiple renal conditions into one positive class. Synthetic observations cannot replace independent clinical recruitment. The thesis also describes instrumental sensitivity and calibration limitations associated with the experimental Raman setup. Accordingly, the repository documents an exploratory computational study rather than a validated diagnostic tool.
