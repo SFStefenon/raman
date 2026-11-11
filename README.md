@@ -24,9 +24,7 @@ The cohort used in the current machine-learning study consists of **17 individua
 
 The positive group includes patients with **acute kidney injury (AKI)** and **chronic kidney disease (CKD)**, as well as other renal conditions such as **glomerulopathy** and **lupus nephritis**. Therefore, the classification target is **healthy versus renal disorder**, not an AKI-specific diagnosis.
 
-Each patient is represented in the manuscript's classification analysis by a Raman spectrum with **2,048 intensity features**, indexed by Raman shift (wavenumber, cm⁻¹). The complete input can be represented as a matrix of shape (**17, 2048**) and a binary target vector of length 17. Wavenumber coordinates should be retained alongside the intensity values to interpret selected spectral positions.
-
-> **Dataset provenance:** Moreno's 2024 thesis reports **15 clinical urine samples** (7 healthy and 8 with renal conditions). The current manuscript analyzes an **expanded cohort of 17** (7 healthy and 10 with renal conditions). The thesis documents the original experimental protocol but does **not** by itself establish the collection details of the two additional cases; their provenance should be verified before a public data release. The 2,048-feature representation is specified in the current manuscript, not explicitly in the thesis.
+> Each patient is represented in the manuscript's classification analysis by a Raman spectrum with **2,048 intensity features**, indexed by Raman shift (wavenumber, cm⁻¹). The complete input can be represented as a matrix of shape (**17, 2048**) and a binary target vector of length 17. Wavenumber coordinates should be retained alongside the intensity values to interpret selected spectral positions.
 
 ### Data interpretation and constraints
 
