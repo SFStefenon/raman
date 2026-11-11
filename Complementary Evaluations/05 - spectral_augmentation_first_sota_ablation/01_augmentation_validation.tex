@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{First-stage augmentation selection with a fixed neural anchor on original-patient inner validation. These scores are not outer-test results.}
+\label{tab:augmentation_first}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Augmentation & BA & SD & Chosen & Train (s) \\
+\midrule
+Real only & 0.704 & 0.063 & 5 & 0.043 \\
+Latent DDPM 10/class & 0.662 & 0.121 & 4 & 0.146 \\
+Latent DDPM 20/class & 0.686 & 0.134 & 3 & 0.149 \\
+Latent Flow Matching 10/class & 0.700 & 0.081 & 2 & 0.150 \\
+Latent EDM-style 10/class & 0.671 & 0.089 & 2 & 0.144 \\
+Latent EDM-style 20/class & 0.661 & 0.111 & 1 & 0.148 \\
+Latent Flow Matching 20/class & 0.668 & 0.112 & 0 & 0.151 \\
+\bottomrule
+\end{tabular}
+\end{table}

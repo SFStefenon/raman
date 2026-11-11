@@ -1,0 +1,27 @@
+\begin{table*}[t]
+\centering
+\caption{Paired original-patient comparison versus the selected pipeline. Stratified patient bootstrap intervals and exploratory exact McNemar tests with Holm correction; limited sample size.}
+\label{tab:paired_components}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Component replacement & Delta BA (pp) & CI low & CI high & Recovered & Lost & Holm p \\
+\midrule
+matched\_real\_only & -12.143 & -31.429 & 0.000 & 0 & 2 & 1.000 \\
+forced\_synthetic & -7.143 & -21.429 & 0.000 & 0 & 1 & 1.000 \\
+replace\_classifier::Residual MLP & -7.143 & -21.429 & 0.000 & 0 & 1 & 1.000 \\
+replace\_classifier::ConvNeXt1D & -2.143 & -18.571 & 10.714 & 1 & 1 & 1.000 \\
+replace\_classifier::Patch Transformer & 7.143 & -14.286 & 28.571 & 2 & 1 & 1.000 \\
+replace\_classifier::Spectral Mixer & 0.000 & 0.000 & 0.000 & 0 & 0 & 1.000 \\
+replace\_feature::Raw SNV & -5.000 & -26.429 & 16.429 & 1 & 2 & 1.000 \\
+replace\_feature::Multi-resolution patches & 0.000 & 0.000 & 0.000 & 0 & 0 & 1.000 \\
+replace\_feature::Masked spectral AE & -17.143 & -36.429 & 0.000 & 0 & 3 & 1.000 \\
+replace\_feature::Supervised contrastive & -5.000 & -26.804 & 16.429 & 1 & 2 & 1.000 \\
+raw\_real\_only::Residual MLP & -17.143 & -36.429 & 0.000 & 0 & 3 & 1.000 \\
+raw\_real\_only::ConvNeXt1D & -5.000 & -28.571 & 16.429 & 1 & 2 & 1.000 \\
+raw\_real\_only::Patch Transformer & -5.000 & -26.804 & 16.429 & 1 & 2 & 1.000 \\
+raw\_real\_only::Spectral Mixer & -5.000 & -26.429 & 16.429 & 1 & 2 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,15 @@
+Reference,Comparator,DeltaBA_pp,CI_low_pp,CI_high_pp,Recovered,Lost,ExactMcNemarP,HolmP
+selected_pipeline,matched_real_only,-12.142857142857133,-31.428571428571427,0.0,0,2,0.5,1.0
+selected_pipeline,forced_synthetic,-7.14285714285714,-21.42857142857143,0.0,0,1,1.0,1.0
+selected_pipeline,replace_classifier::Residual MLP,-7.14285714285714,-21.42857142857143,0.0,0,1,1.0,1.0
+selected_pipeline,replace_classifier::ConvNeXt1D,-2.1428571428571352,-18.571428571428573,10.714285714285715,1,1,1.0,1.0
+selected_pipeline,replace_classifier::Patch Transformer,7.142857142857151,-14.285714285714288,28.57142857142857,2,1,1.0,1.0
+selected_pipeline,replace_classifier::Spectral Mixer,0.0,0.0,0.0,0,0,1.0,1.0
+selected_pipeline,replace_feature::Raw SNV,-4.999999999999993,-26.428571428571434,16.428571428571427,1,2,1.0,1.0
+selected_pipeline,replace_feature::Multi-resolution patches,0.0,0.0,0.0,0,0,1.0,1.0
+selected_pipeline,replace_feature::Masked spectral AE,-17.142857142857125,-36.42857142857143,0.0,0,3,0.25,1.0
+selected_pipeline,replace_feature::Supervised contrastive,-4.999999999999993,-26.803571428571427,16.428571428571427,1,2,1.0,1.0
+selected_pipeline,raw_real_only::Residual MLP,-17.142857142857125,-36.42857142857143,0.0,0,3,0.25,1.0
+selected_pipeline,raw_real_only::ConvNeXt1D,-4.999999999999993,-28.57142857142857,16.428571428571427,1,2,1.0,1.0
+selected_pipeline,raw_real_only::Patch Transformer,-4.999999999999993,-26.803571428571427,16.428571428571427,1,2,1.0,1.0
+selected_pipeline,raw_real_only::Spectral Mixer,-4.999999999999993,-26.42857142857143,16.428571428571427,1,2,1.0,1.0

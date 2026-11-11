@@ -1,0 +1,29 @@
+\begin{table}[t]
+\centering
+\caption{Second-stage joint ablation of neural classifiers and spectral representations, conditioned on training-only selected augmentation.}
+\label{tab:joint_second}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrr}
+\toprule
+Classifier / representation & BA & SD & Chosen & Train (s) \\
+\midrule
+Residual MLP || Multi-resolution patches & 0.769 & 0.064 & 6 & 0.113 \\
+ConvNeXt1D || Masked spectral AE & 0.786 & 0.048 & 4 & 0.974 \\
+Residual MLP || Raw SNV & 0.701 & 0.092 & 2 & 0.125 \\
+Residual MLP || Masked spectral AE & 0.763 & 0.065 & 1 & 0.240 \\
+Spectral Mixer || Masked spectral AE & 0.743 & 0.084 & 1 & 0.331 \\
+Residual MLP || Supervised contrastive & 0.727 & 0.060 & 1 & 0.270 \\
+Spectral Mixer || Multi-resolution patches & 0.686 & 0.111 & 1 & 0.202 \\
+Patch Transformer || Multi-resolution patches & 0.628 & 0.086 & 1 & 0.225 \\
+Patch Transformer || Masked spectral AE & 0.764 & 0.061 & 0 & 0.351 \\
+Spectral Mixer || Supervised contrastive & 0.713 & 0.060 & 0 & 0.361 \\
+Patch Transformer || Supervised contrastive & 0.711 & 0.060 & 0 & 0.389 \\
+ConvNeXt1D || Supervised contrastive & 0.707 & 0.082 & 0 & 1.008 \\
+Patch Transformer || Raw SNV & 0.668 & 0.106 & 0 & 0.230 \\
+Spectral Mixer || Raw SNV & 0.657 & 0.108 & 0 & 0.203 \\
+ConvNeXt1D || Multi-resolution patches & 0.655 & 0.100 & 0 & 0.844 \\
+ConvNeXt1D || Raw SNV & 0.622 & 0.085 & 0 & 0.841 \\
+\bottomrule
+\end{tabular}
+\end{table}

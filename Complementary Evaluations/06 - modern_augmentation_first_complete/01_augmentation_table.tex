@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Stage 1: fixed-probe generator selection on original-patient inner CV.}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+Candidate & InnerBA\_mean & InnerBA\_sd & PooledInnerAUC & Selected & MeanSeconds & Outer\_folds \\
+\midrule
+Rectified Flow 12/class & 0.727 & 0.076 & 0.773 & 5 & 0.612 & 27 \\
+Stochastic Interpolant 30/class & 0.721 & 0.082 & 0.775 & 3 & 1.034 & 27 \\
+VP Flow Matching 12/class & 0.719 & 0.081 & 0.773 & 2 & 0.605 & 27 \\
+Latent EDM 30/class & 0.718 & 0.105 & 0.759 & 3 & 1.035 & 27 \\
+Rectified Flow 30/class & 0.714 & 0.088 & 0.770 & 4 & 1.020 & 27 \\
+VP Flow Matching 30/class & 0.713 & 0.078 & 0.774 & 2 & 1.034 & 27 \\
+Real only & 0.704 & 0.098 & 0.751 & 5 & 0.225 & 27 \\
+Stochastic Interpolant 12/class & 0.701 & 0.089 & 0.773 & 2 & 0.605 & 27 \\
+Latent EDM 12/class & 0.690 & 0.076 & 0.740 & 1 & 0.606 & 27 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,45 @@
+{
+  "run_mode": "complete",
+  "patients": 27,
+  "tested": 27,
+  "healthy": 7,
+  "sick": 20,
+  "channels": 2048,
+  "seed": 7,
+  "device": "cpu",
+  "input_points": 256,
+  "epochs": 32,
+  "generator_steps": 280,
+  "inner_folds": 3,
+  "generation_candidates": [
+    "Real only",
+    "Rectified Flow 12/class",
+    "Rectified Flow 30/class",
+    "Stochastic Interpolant 12/class",
+    "Stochastic Interpolant 30/class",
+    "VP Flow Matching 12/class",
+    "VP Flow Matching 30/class",
+    "Latent EDM 12/class",
+    "Latent EDM 30/class"
+  ],
+  "models": [
+    "Patch Transformer",
+    "ModernTCN-lite",
+    "ConvNeXt-1D",
+    "Spectral Mixer"
+  ],
+  "representations": [
+    "SNV raw",
+    "Multiscale patches",
+    "Gradient + shape",
+    "Scale-space bands",
+    "Frequency hybrid"
+  ],
+  "wall_seconds": 7456.626027083,
+  "protocol": "nested LOOCV outer; StratifiedKFold inner using ONLY original patients",
+  "augmentation_probe": "locked Patch Transformer + SNV raw, no classifier tuning at augmentation stage",
+  "selection": "inner original-patient balanced accuracy, then AUC, accuracy, fixed candidate order",
+  "no_augmentation_control": "same fold-specific classifier and representation",
+  "best_synthetic": "best of synthetic candidates using probe; no guarantee better than real-only",
+  "caveat": "17 independent patients. Exploratory; no external validation. Architecture families are compact approximations, not official paper reproductions."
+}

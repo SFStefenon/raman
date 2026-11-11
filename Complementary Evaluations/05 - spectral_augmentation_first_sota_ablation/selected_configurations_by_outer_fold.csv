@@ -1,0 +1,52 @@
+outer_fold,patient,stage,candidate,InnerBA
+1,healthy/P1_saudavel,augmentation,Latent DDPM 20/class,0.8
+1,healthy/P1_saudavel,best_synthetic,Latent DDPM 20/class,0.8
+1,healthy/P1_saudavel,joint,Residual MLP || Raw SNV,0.85
+2,healthy/P2_saudavel,augmentation,Latent DDPM 10/class,0.7666666666666666
+2,healthy/P2_saudavel,best_synthetic,Latent DDPM 10/class,0.7666666666666666
+2,healthy/P2_saudavel,joint,Spectral Mixer || Multi-resolution patches,0.8166666666666667
+3,healthy/P3_saudavel,augmentation,Latent Flow Matching 10/class,0.7666666666666666
+3,healthy/P3_saudavel,best_synthetic,Latent Flow Matching 10/class,0.7666666666666666
+3,healthy/P3_saudavel,joint,Residual MLP || Masked spectral AE,0.8
+4,healthy/P4_saudavel,augmentation,Latent DDPM 10/class,0.8166666666666667
+4,healthy/P4_saudavel,best_synthetic,Latent DDPM 10/class,0.8166666666666667
+4,healthy/P4_saudavel,joint,Residual MLP || Multi-resolution patches,0.8166666666666667
+5,healthy/P5_saudavel,augmentation,Latent DDPM 10/class,0.8166666666666667
+5,healthy/P5_saudavel,best_synthetic,Latent DDPM 10/class,0.8166666666666667
+5,healthy/P5_saudavel,joint,Residual MLP || Multi-resolution patches,0.8166666666666667
+6,healthy/P6_saudavel,augmentation,Real only,0.7166666666666667
+6,healthy/P6_saudavel,best_synthetic,Latent Flow Matching 10/class,0.7
+6,healthy/P6_saudavel,joint,ConvNeXt1D || Masked spectral AE,0.8
+7,healthy/P7_saudavel,augmentation,Latent EDM-style 10/class,0.8166666666666667
+7,healthy/P7_saudavel,best_synthetic,Latent EDM-style 10/class,0.8166666666666667
+7,healthy/P7_saudavel,joint,Residual MLP || Multi-resolution patches,0.8166666666666667
+8,sick/A10_ com Nefrite lúpica,augmentation,Real only,0.6904761904761905
+8,sick/A10_ com Nefrite lúpica,best_synthetic,Latent DDPM 10/class,0.6507936507936507
+8,sick/A10_ com Nefrite lúpica,joint,ConvNeXt1D || Masked spectral AE,0.7777777777777778
+9,sick/A1_ com DCR,augmentation,Real only,0.6746031746031746
+9,sick/A1_ com DCR,best_synthetic,Latent Flow Matching 10/class,0.6746031746031746
+9,sick/A1_ com DCR,joint,Spectral Mixer || Masked spectral AE,0.873015873015873
+10,sick/A2_ com DCR,augmentation,Latent DDPM 20/class,0.8333333333333333
+10,sick/A2_ com DCR,best_synthetic,Latent DDPM 20/class,0.8333333333333333
+10,sick/A2_ com DCR,joint,Patch Transformer || Multi-resolution patches,0.8333333333333333
+11,sick/A3_ com DCR,augmentation,Real only,0.8015873015873016
+11,sick/A3_ com DCR,best_synthetic,Latent EDM-style 20/class,0.7619047619047619
+11,sick/A3_ com DCR,joint,Residual MLP || Multi-resolution patches,0.8015873015873016
+12,sick/A4_ com DCR,augmentation,Latent EDM-style 20/class,0.8888888888888888
+12,sick/A4_ com DCR,best_synthetic,Latent EDM-style 20/class,0.8888888888888888
+12,sick/A4_ com DCR,joint,Residual MLP || Multi-resolution patches,0.8888888888888888
+13,sick/A5_ com DCR,augmentation,Real only,0.8174603174603174
+13,sick/A5_ com DCR,best_synthetic,Latent DDPM 10/class,0.7063492063492063
+13,sick/A5_ com DCR,joint,Residual MLP || Multi-resolution patches,0.8174603174603174
+14,sick/A6_com DCR,augmentation,Latent EDM-style 10/class,0.746031746031746
+14,sick/A6_com DCR,best_synthetic,Latent EDM-style 10/class,0.746031746031746
+14,sick/A6_com DCR,joint,Residual MLP || Raw SNV,0.7619047619047619
+15,sick/A7_com LRA,augmentation,Latent DDPM 20/class,0.7063492063492063
+15,sick/A7_com LRA,best_synthetic,Latent DDPM 20/class,0.7063492063492063
+15,sick/A7_com LRA,joint,ConvNeXt1D || Masked spectral AE,0.7777777777777778
+16,sick/A8_com LRA,augmentation,Latent DDPM 10/class,0.6507936507936507
+16,sick/A8_com LRA,best_synthetic,Latent DDPM 10/class,0.6507936507936507
+16,sick/A8_com LRA,joint,ConvNeXt1D || Masked spectral AE,0.7777777777777778
+17,sick/A9_com Glomerulopatia,augmentation,Latent Flow Matching 10/class,0.7619047619047619
+17,sick/A9_com Glomerulopatia,best_synthetic,Latent Flow Matching 10/class,0.7619047619047619
+17,sick/A9_com Glomerulopatia,joint,Residual MLP || Supervised contrastive,0.7777777777777778

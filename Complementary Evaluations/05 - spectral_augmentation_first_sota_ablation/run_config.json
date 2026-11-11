@@ -1,0 +1,56 @@
+{
+  "run_mode": "complete",
+  "exploratory": true,
+  "tested_original_patients": 17,
+  "total_original_patients": 17,
+  "healthy": 7,
+  "diseased": 10,
+  "wavenumbers": 2048,
+  "outer_cv": "patient-level leave-one-out",
+  "inner_cv": "patient-level stratified 3-fold",
+  "stage_1": "augmentation first; fixed residual MLP + multiresolution features",
+  "stage_2": "joint neural classifier x representation conditioned on chosen augmentation",
+  "stage_3": "unseen original-patient test; matched component/augmentation controls",
+  "selection_priority": "inner balanced accuracy, ROC AUC, accuracy, fixed candidate order",
+  "anchor_model": "Residual MLP",
+  "anchor_features": "Multi-resolution patches",
+  "augmentation_candidates": [
+    "Real only",
+    "Latent Flow Matching 10/class",
+    "Latent Flow Matching 20/class",
+    "Latent DDPM 10/class",
+    "Latent DDPM 20/class",
+    "Latent EDM-style 10/class",
+    "Latent EDM-style 20/class"
+  ],
+  "classifier_candidates": [
+    "Residual MLP",
+    "ConvNeXt1D",
+    "Patch Transformer",
+    "Spectral Mixer"
+  ],
+  "feature_candidates": [
+    "Raw SNV",
+    "Multi-resolution patches",
+    "Masked spectral AE",
+    "Supervised contrastive"
+  ],
+  "seed": 1,
+  "device": "cpu",
+  "epochs": {
+    "classifier": 45,
+    "feature": 60,
+    "generator": 240
+  },
+  "time_seconds": {
+    "augmentation": 30.99867175000002,
+    "joint": 230.82949270899994,
+    "outer": 66.77185979000005
+  },
+  "total_wall_seconds": 330.662353584,
+  "caveat": "Only 17 patients: CIs, p values, and AUC are exploratory. Modern neural methods fitted from scratch are not pretrained SOTA models. External patient cohorts are required to substantiate clinical claims.",
+  "data_paths": {
+    "healthy": "/Users/stefanostefenon/Downloads/Pipeline_promissing_but_results_not/saudaveis",
+    "sick": "/Users/stefanostefenon/Downloads/Pipeline_promissing_but_results_not/doentes"
+  }
+}

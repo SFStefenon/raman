@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\caption{Original-patient nested outer-test performance. All pipeline choices are made without using outer-test labels. Pooled AUC is descriptive because score calibration differs between folds.}
+\label{tab:outer_metrics}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+Pipeline & Accuracy & BA & Sensitivity & Specificity & AUC & Correct \\
+\midrule
+aug\_anchor::Real only & 0.765 & 0.779 & 0.700 & 0.857 & 0.843 & 13 \\
+forced\_synthetic & 0.647 & 0.679 & 0.500 & 0.857 & 0.714 & 11 \\
+matched\_real\_only & 0.706 & 0.729 & 0.600 & 0.857 & 0.914 & 12 \\
+selected\_pipeline & 0.588 & 0.607 & 0.500 & 0.714 & 0.700 & 10 \\
+\bottomrule
+\end{tabular}
+\end{table*}
