@@ -31,7 +31,6 @@ The positive group includes patients with **acute kidney injury (AKI)** and **ch
 - Original patient spectra are the **only** observations counted in test-set performance metrics.
 - Synthetic spectra are generated **within training folds** and are not additional patients.
 - The dataset is small and heterogeneous. Results are **exploratory**, not evidence of clinical diagnostic validation.
-- No public download URL or license for the underlying patient data is established by the source documents. Data-sharing arrangements should be confirmed before adding spectra to a public repository.
 
 ## Proposed method
 
