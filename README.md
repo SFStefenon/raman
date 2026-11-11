@@ -1,14 +1,12 @@
-# Raman-Based Renal Disorder Classification with Latent Flow, ANOVA, and PLS-DA
+# Raman-Based Renal Disorder 
 
-This repository accompanies the research manuscript **“Class-Conditional Latent Flow Augmentation and ANOVA-Guided PLS-DA for Small-Sample Spectral Classification of Acute Kidney Injury.”** It describes an experimental pipeline for distinguishing urine Raman spectra from healthy individuals and patients with renal disorders using a small clinical cohort.
-
-The method combines **class-conditional latent flow augmentation**, **ANOVA-based spectral feature selection**, and **partial least squares discriminant analysis (PLS-DA)**. It is designed to address the combination of few labeled patients and many correlated Raman measurements.
+This repository describes an experimental pipeline for distinguishing urine Raman spectra from healthy individuals and patients with renal disorders using a small clinical cohort.
 
 ## Dataset
 
 ### Origin and collection
 
-The spectral dataset is associated with **LUMINA (Light Based Urine Monitoring and Analysis)**, a collaboration involving the **Instituto Superior de Engenharia de Lisboa (ISEL)** and the **Unidade Local de Saúde da Arrábida (ULSA)**, Portugal. The experimental foundation was documented in Ana Filipa Basílio Moreno's 2024 master's thesis, *Diagnóstico de lesão renal aguda através da análise optoelectrónica de urina*.
+The spectral dataset is associated with **LUMINA (Light Based Urine Monitoring and Analysis)**, a collaboration involving the **Instituto Superior de Engenharia de Lisboa (ISEL)** and the **Unidade Local de Saúde da Arrábida (ULSA)**, Portugal. 
 
 Urine specimens were obtained from healthy volunteers and individuals receiving nephrology care at **Hospital São Bernardo**, under an ethics-approved collection protocol and informed consent procedures. Samples were coded to protect participant identities, collected in sterile containers without preservatives, and stored at approximately **4 °C** before analysis. For spectroscopy, approximately **4 mL** of each sample was placed in a quartz cuvette and measured at room temperature (approximately **20 °C**).
 
@@ -24,7 +22,7 @@ The cohort used in the current machine-learning study consists of **17 individua
 | Patients with renal disorders | 10 | `1` |
 | **Total** | **17** | |
 
-The positive group includes patients with **acute kidney injury (AKI)** and **chronic kidney disease (CKD)**, as well as other renal conditions such as **glomerulopathy** and **lupus nephritis**. Therefore, the classification target is **healthy versus renal disorder**, not AKI-specific diagnosis.
+The positive group includes patients with **acute kidney injury (AKI)** and **chronic kidney disease (CKD)**, as well as other renal conditions such as **glomerulopathy** and **lupus nephritis**. Therefore, the classification target is **healthy versus renal disorder**, not an AKI-specific diagnosis.
 
 Each patient is represented in the manuscript's classification analysis by a Raman spectrum with **2,048 intensity features**, indexed by Raman shift (wavenumber, cm⁻¹). The complete input can be represented as a matrix `X` of shape `(17, 2048)` and a binary target vector `y` of length `17`. Wavenumber coordinates should be retained alongside the intensity values to interpret selected spectral positions.
 
@@ -38,6 +36,8 @@ Each patient is represented in the manuscript's classification analysis by a Ram
 - No public download URL or license for the underlying patient data is established by the source documents. Data-sharing arrangements should be confirmed before adding spectra to a public repository.
 
 ## Proposed method
+
+The proposed method combines **class-conditional latent flow augmentation**, **ANOVA-based spectral feature selection**, and **partial least squares discriminant analysis (PLS-DA)**. It is designed to address the combination of few labeled patients and many correlated Raman measurements.
 
 ### 1. Standard Normal Variate normalization
 
