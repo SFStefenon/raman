@@ -39,38 +39,6 @@ Each patient is represented in the manuscript's classification analysis by a Ram
 
 ## Proposed method
 
-The proposed pipeline follows three main modeling stages after preprocessing:
-
-```text
-17 real urine Raman spectra (2,048 intensities each)
-                         |
-              Patient-level LOOCV
-       16 train patients / 1 test patient
-                         |
-            Standard Normal Variate
-                  (SNV) scaling
-                         |
-          TRAINING PATIENTS ONLY
-                         |
-        PCA to a 4-dimensional latent space
-                         |
-      Class-conditional latent flow matching
-             (30 synthetic / class)
-                         |
-      Reconstruct 60 synthetic Raman spectra
-                         |
-          Real + synthetic train spectra
-                         |
-        ANOVA ranking -> top 256 features
-                         |
-                  PLS-DA
-              (4 components)
-                         |
-         Predict the held-out real patient
-                         |
-          Repeat for all 17 LOOCV folds
-```
-
 ### 1. Standard Normal Variate normalization
 
 For a measured spectrum `x`, SNV subtracts the spectrum's own mean and divides by its standard deviation:
