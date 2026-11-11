@@ -24,7 +24,7 @@ The cohort used in the current machine-learning study consists of **17 individua
 
 The positive group includes patients with **acute kidney injury (AKI)** and **chronic kidney disease (CKD)**, as well as other renal conditions such as **glomerulopathy** and **lupus nephritis**. Therefore, the classification target is **healthy versus renal disorder**, not an AKI-specific diagnosis.
 
-> Each patient is represented in the manuscript's classification analysis by a Raman spectrum with **2,048 intensity features**, indexed by Raman shift (wavenumber, cm⁻¹). The complete input can be represented as a matrix of shape (**17, 2048**) and a binary target vector of length 17. Wavenumber coordinates should be retained alongside the intensity values to interpret selected spectral positions.
+> Each patient is represented in the manuscript's classification analysis by a Raman spectrum with **2,048 intensity features**, indexed by Raman shift (wavenumber, cm⁻¹). The complete input can be represented as a matrix of shape (`17, 2048`) and a binary target vector of length 17. Wavenumber coordinates should be retained alongside the intensity values to interpret selected spectral positions.
 
 ### Data interpretation and constraints
 
@@ -38,7 +38,7 @@ The proposed method combines **class-conditional latent flow augmentation**, **A
 
 ### 1. Standard Normal Variate normalization
 
-Standard Normal Variate (SNV) normalization is applied independently to each measured spectrum by subtracting its mean intensity and dividing the resulting values by the spectrum's standard deviation. A small numerical constant of \\(10^{-10}\\) is used as a lower bound for the denominator to prevent division by zero. This procedure reduces additive baseline offsets and multiplicative intensity variations while preserving the relative spectral structure, thereby improving the consistency of the spectral data for subsequent augmentation, feature selection, and classification.
+Standard Normal Variate (SNV) normalization is applied independently to each measured spectrum by subtracting its mean intensity and dividing the resulting values by the spectrum's standard deviation. A small numerical constant of `10^{-10}` is used as a lower bound for the denominator to prevent division by zero. This procedure reduces additive baseline offsets and multiplicative intensity variations while preserving the relative spectral structure, thereby improving the consistency of the spectral data for subsequent augmentation, feature selection, and classification.
 
 ### 2. Class-conditional latent flow augmentation
 
