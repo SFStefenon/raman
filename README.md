@@ -38,13 +38,7 @@ The proposed method combines **class-conditional latent flow augmentation**, **A
 
 ### 1. Standard Normal Variate normalization
 
-For a measured spectrum `x`, SNV subtracts the spectrum's own mean and divides by its standard deviation:
-
-```text
-SNV(x_j) = (x_j - mean(x)) / max(std(x), 1e-10)
-```
-
-This reduces additive offsets and differences in overall signal scale while preserving relative spectral structure. Each sample is normalized independently.
+Standard Normal Variate (SNV) normalization is applied independently to each measured spectrum by subtracting its mean intensity and dividing the resulting values by the spectrum's standard deviation. A small numerical constant of \\(10^{-10}\\) is used as a lower bound for the denominator to prevent division by zero. This procedure reduces additive baseline offsets and multiplicative intensity variations while preserving the relative spectral structure, thereby improving the consistency of the spectral data for subsequent augmentation, feature selection, and classification.
 
 ### 2. Class-conditional latent flow augmentation
 
