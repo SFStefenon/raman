@@ -1,0 +1,244 @@
+Seed,fold,patient,truth,arm,score,pred
+7,1,healthy/P1_saudavel,0,best_synthetic,0.005529636982828379,0
+7,1,healthy/P1_saudavel,0,matched_real_only,0.7418336868286133,1
+7,1,healthy/P1_saudavel,0,final_cv_selected,0.005529636982828379,0
+7,2,healthy/P2_saudavel,0,best_synthetic,0.0069562518037855625,0
+7,2,healthy/P2_saudavel,0,matched_real_only,0.9296792149543762,1
+7,2,healthy/P2_saudavel,0,final_cv_selected,0.0069562518037855625,0
+7,3,healthy/P3_saudavel,0,best_synthetic,0.003456439357250929,0
+7,3,healthy/P3_saudavel,0,matched_real_only,0.005637818947434425,0
+7,3,healthy/P3_saudavel,0,final_cv_selected,0.003456439357250929,0
+7,4,healthy/P4_saudavel,0,best_synthetic,0.002676847856491804,0
+7,4,healthy/P4_saudavel,0,matched_real_only,0.7374725341796875,1
+7,4,healthy/P4_saudavel,0,final_cv_selected,0.002676847856491804,0
+7,5,healthy/P5_saudavel,0,best_synthetic,0.765964150428772,1
+7,5,healthy/P5_saudavel,0,matched_real_only,0.2576183080673218,0
+7,5,healthy/P5_saudavel,0,final_cv_selected,0.765964150428772,1
+7,6,healthy/P6_saudavel,0,best_synthetic,0.9977812170982361,1
+7,6,healthy/P6_saudavel,0,matched_real_only,0.9979531764984131,1
+7,6,healthy/P6_saudavel,0,final_cv_selected,0.9979531764984131,1
+7,7,healthy/P7_saudavel,0,best_synthetic,1.0504839337954763e-05,0
+7,7,healthy/P7_saudavel,0,matched_real_only,0.0069121927954256535,0
+7,7,healthy/P7_saudavel,0,final_cv_selected,1.0504839337954763e-05,0
+7,8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,best_synthetic,0.9816851019859314,1
+7,8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,matched_real_only,0.9894692897796631,1
+7,8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,final_cv_selected,0.9816851019859314,1
+7,9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,best_synthetic,0.9856186509132385,1
+7,9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,matched_real_only,0.9808123111724854,1
+7,9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,final_cv_selected,0.9856186509132385,1
+7,10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,best_synthetic,0.999408483505249,1
+7,10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,matched_real_only,0.9999432563781738,1
+7,10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,final_cv_selected,0.999408483505249,1
+7,11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,best_synthetic,0.5470854043960571,1
+7,11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,matched_real_only,0.5709722638130188,1
+7,11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,final_cv_selected,0.5470854043960571,1
+7,12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,best_synthetic,0.2622953951358795,0
+7,12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,matched_real_only,0.20396727323532104,0
+7,12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,final_cv_selected,0.2622953951358795,0
+7,13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,best_synthetic,0.9848328232765198,1
+7,13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,matched_real_only,0.9932610392570496,1
+7,13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,final_cv_selected,0.9848328232765198,1
+7,14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,best_synthetic,0.9698876738548279,1
+7,14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,matched_real_only,0.9905917048454285,1
+7,14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,final_cv_selected,0.9698876738548279,1
+7,15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,best_synthetic,0.9988791346549988,1
+7,15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,matched_real_only,0.9935113787651062,1
+7,15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,final_cv_selected,0.9988791346549988,1
+7,16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,best_synthetic,0.9999974966049194,1
+7,16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,matched_real_only,0.9999704360961914,1
+7,16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,final_cv_selected,0.9999974966049194,1
+7,17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,best_synthetic,0.999997615814209,1
+7,17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,matched_real_only,0.9999247789382935,1
+7,17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,final_cv_selected,0.999997615814209,1
+7,18,sick/A10_ com Nefrite lúpica,1,best_synthetic,0.9797945618629456,1
+7,18,sick/A10_ com Nefrite lúpica,1,matched_real_only,0.999772846698761,1
+7,18,sick/A10_ com Nefrite lúpica,1,final_cv_selected,0.999772846698761,1
+7,19,sick/A1_ com DCR,1,best_synthetic,0.9949435591697693,1
+7,19,sick/A1_ com DCR,1,matched_real_only,0.9859061241149902,1
+7,19,sick/A1_ com DCR,1,final_cv_selected,0.9949435591697693,1
+7,20,sick/A2_ com DCR,1,best_synthetic,0.5816888213157654,1
+7,20,sick/A2_ com DCR,1,matched_real_only,0.9059821367263794,1
+7,20,sick/A2_ com DCR,1,final_cv_selected,0.9059821367263794,1
+7,21,sick/A3_ com DCR,1,best_synthetic,0.997032642364502,1
+7,21,sick/A3_ com DCR,1,matched_real_only,0.9986261129379272,1
+7,21,sick/A3_ com DCR,1,final_cv_selected,0.997032642364502,1
+7,22,sick/A4_ com DCR,1,best_synthetic,0.9083418846130371,1
+7,22,sick/A4_ com DCR,1,matched_real_only,0.6897531151771545,1
+7,22,sick/A4_ com DCR,1,final_cv_selected,0.9083418846130371,1
+7,23,sick/A5_ com DCR,1,best_synthetic,0.999159574508667,1
+7,23,sick/A5_ com DCR,1,matched_real_only,0.9999754428863525,1
+7,23,sick/A5_ com DCR,1,final_cv_selected,0.999159574508667,1
+7,24,sick/A6_com DCR,1,best_synthetic,0.9993249177932739,1
+7,24,sick/A6_com DCR,1,matched_real_only,0.9958381652832031,1
+7,24,sick/A6_com DCR,1,final_cv_selected,0.9958381652832031,1
+7,25,sick/A7_com LRA,1,best_synthetic,0.9992058873176575,1
+7,25,sick/A7_com LRA,1,matched_real_only,0.9999852180480957,1
+7,25,sick/A7_com LRA,1,final_cv_selected,0.9992058873176575,1
+7,26,sick/A8_com LRA,1,best_synthetic,0.9948685169219971,1
+7,26,sick/A8_com LRA,1,matched_real_only,0.9930092096328735,1
+7,26,sick/A8_com LRA,1,final_cv_selected,0.9948685169219971,1
+7,27,sick/A9_com Glomerulopatia,1,best_synthetic,0.9993071556091309,1
+7,27,sick/A9_com Glomerulopatia,1,matched_real_only,0.9781723022460938,1
+7,27,sick/A9_com Glomerulopatia,1,final_cv_selected,0.9993071556091309,1
+108,1,healthy/P1_saudavel,0,best_synthetic,0.01949433609843254,0
+108,1,healthy/P1_saudavel,0,matched_real_only,0.7439906597137451,1
+108,1,healthy/P1_saudavel,0,final_cv_selected,0.01949433609843254,0
+209,1,healthy/P1_saudavel,0,best_synthetic,0.8171973824501038,1
+209,1,healthy/P1_saudavel,0,matched_real_only,0.9999243021011353,1
+209,1,healthy/P1_saudavel,0,final_cv_selected,0.8171973824501038,1
+108,2,healthy/P2_saudavel,0,best_synthetic,0.011800362728536129,0
+108,2,healthy/P2_saudavel,0,matched_real_only,0.01733160950243473,0
+108,2,healthy/P2_saudavel,0,final_cv_selected,0.011800362728536129,0
+209,2,healthy/P2_saudavel,0,best_synthetic,0.0011802674271166325,0
+209,2,healthy/P2_saudavel,0,matched_real_only,0.019230768084526062,0
+209,2,healthy/P2_saudavel,0,final_cv_selected,0.0011802674271166325,0
+108,3,healthy/P3_saudavel,0,best_synthetic,0.003724977606907487,0
+108,3,healthy/P3_saudavel,0,matched_real_only,0.07868465036153793,0
+108,3,healthy/P3_saudavel,0,final_cv_selected,0.003724977606907487,0
+209,3,healthy/P3_saudavel,0,best_synthetic,0.004351987037807703,0
+209,3,healthy/P3_saudavel,0,matched_real_only,0.27297353744506836,0
+209,3,healthy/P3_saudavel,0,final_cv_selected,0.004351987037807703,0
+108,4,healthy/P4_saudavel,0,best_synthetic,0.2533906400203705,0
+108,4,healthy/P4_saudavel,0,matched_real_only,0.14333361387252808,0
+108,4,healthy/P4_saudavel,0,final_cv_selected,0.2533906400203705,0
+209,4,healthy/P4_saudavel,0,best_synthetic,0.9998477697372437,1
+209,4,healthy/P4_saudavel,0,matched_real_only,0.9822487831115723,1
+209,4,healthy/P4_saudavel,0,final_cv_selected,0.9998477697372437,1
+108,5,healthy/P5_saudavel,0,best_synthetic,0.9985559582710266,1
+108,5,healthy/P5_saudavel,0,matched_real_only,0.9986743927001953,1
+108,5,healthy/P5_saudavel,0,final_cv_selected,0.9985559582710266,1
+209,5,healthy/P5_saudavel,0,best_synthetic,0.005303217563778162,0
+209,5,healthy/P5_saudavel,0,matched_real_only,0.09815241396427155,0
+209,5,healthy/P5_saudavel,0,final_cv_selected,0.005303217563778162,0
+108,6,healthy/P6_saudavel,0,best_synthetic,0.9976060390472412,1
+108,6,healthy/P6_saudavel,0,matched_real_only,0.9949140548706055,1
+108,6,healthy/P6_saudavel,0,final_cv_selected,0.9949140548706055,1
+209,6,healthy/P6_saudavel,0,best_synthetic,0.9983566403388977,1
+209,6,healthy/P6_saudavel,0,matched_real_only,0.9972972273826599,1
+209,6,healthy/P6_saudavel,0,final_cv_selected,0.9972972273826599,1
+108,7,healthy/P7_saudavel,0,best_synthetic,0.0001108052019844763,0
+108,7,healthy/P7_saudavel,0,matched_real_only,0.0036080109421163797,0
+108,7,healthy/P7_saudavel,0,final_cv_selected,0.0001108052019844763,0
+209,7,healthy/P7_saudavel,0,best_synthetic,0.00014699618623126298,0
+209,7,healthy/P7_saudavel,0,matched_real_only,0.0029870537109673023,0
+209,7,healthy/P7_saudavel,0,final_cv_selected,0.00014699618623126298,0
+108,8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,best_synthetic,0.9943938255310059,1
+108,8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,matched_real_only,0.9898951649665833,1
+108,8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,final_cv_selected,0.9943938255310059,1
+209,8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,best_synthetic,0.9931588768959045,1
+209,8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,matched_real_only,0.9928790926933289,1
+209,8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,final_cv_selected,0.9931588768959045,1
+108,9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,best_synthetic,0.9950779676437378,1
+108,9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,matched_real_only,0.98537677526474,1
+108,9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,final_cv_selected,0.9950779676437378,1
+209,9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,best_synthetic,0.9970594048500061,1
+209,9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,matched_real_only,0.9683194160461426,1
+209,9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,final_cv_selected,0.9970594048500061,1
+108,10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,best_synthetic,0.9996930360794067,1
+108,10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,matched_real_only,0.9995566010475159,1
+108,10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,final_cv_selected,0.9996930360794067,1
+209,10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,best_synthetic,0.9803144931793213,1
+209,10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,matched_real_only,0.9994901418685913,1
+209,10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,final_cv_selected,0.9803144931793213,1
+108,11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,best_synthetic,0.9944000840187073,1
+108,11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,matched_real_only,0.9944985508918762,1
+108,11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,final_cv_selected,0.9944000840187073,1
+209,11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,best_synthetic,0.9937291145324707,1
+209,11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,matched_real_only,0.9878826141357422,1
+209,11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,final_cv_selected,0.9937291145324707,1
+108,12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,best_synthetic,0.21318107843399048,0
+108,12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,matched_real_only,0.27201616764068604,0
+108,12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,final_cv_selected,0.21318107843399048,0
+209,12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,best_synthetic,0.21888825297355652,0
+209,12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,matched_real_only,0.22879786789417267,0
+209,12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,final_cv_selected,0.21888825297355652,0
+108,13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,best_synthetic,0.9865561723709106,1
+108,13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,matched_real_only,0.9909912347793579,1
+108,13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,final_cv_selected,0.9865561723709106,1
+209,13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,best_synthetic,0.9898869395256042,1
+209,13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,matched_real_only,0.9963967204093933,1
+209,13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,final_cv_selected,0.9898869395256042,1
+108,14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,best_synthetic,0.9917312264442444,1
+108,14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,matched_real_only,0.9975783228874207,1
+108,14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,final_cv_selected,0.9917312264442444,1
+209,14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,best_synthetic,0.9852855801582336,1
+209,14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,matched_real_only,0.9957905411720276,1
+209,14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,final_cv_selected,0.9852855801582336,1
+108,15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,best_synthetic,0.9984001517295837,1
+108,15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,matched_real_only,0.9960159659385681,1
+108,15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,final_cv_selected,0.9984001517295837,1
+209,15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,best_synthetic,0.9980394244194031,1
+209,15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,matched_real_only,0.9878023266792297,1
+209,15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,final_cv_selected,0.9980394244194031,1
+108,16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,best_synthetic,0.999962568283081,1
+108,16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,matched_real_only,0.9999942779541016,1
+108,16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,final_cv_selected,0.999962568283081,1
+209,16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,best_synthetic,0.9999880790710449,1
+209,16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,matched_real_only,0.9999982118606567,1
+209,16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,final_cv_selected,0.9999880790710449,1
+108,17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,best_synthetic,0.9999998807907104,1
+108,17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,matched_real_only,0.9999849796295166,1
+108,17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,final_cv_selected,0.9999998807907104,1
+209,17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,best_synthetic,0.9999498128890991,1
+209,17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,matched_real_only,0.9998970031738281,1
+209,17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,final_cv_selected,0.9999498128890991,1
+108,18,sick/A10_ com Nefrite lúpica,1,best_synthetic,0.9996848106384277,1
+108,18,sick/A10_ com Nefrite lúpica,1,matched_real_only,0.9999899864196777,1
+108,18,sick/A10_ com Nefrite lúpica,1,final_cv_selected,0.9999899864196777,1
+209,18,sick/A10_ com Nefrite lúpica,1,best_synthetic,0.999462902545929,1
+209,18,sick/A10_ com Nefrite lúpica,1,matched_real_only,0.999990701675415,1
+209,18,sick/A10_ com Nefrite lúpica,1,final_cv_selected,0.999990701675415,1
+108,19,sick/A1_ com DCR,1,best_synthetic,0.9987335801124573,1
+108,19,sick/A1_ com DCR,1,matched_real_only,0.9998282194137573,1
+108,19,sick/A1_ com DCR,1,final_cv_selected,0.9987335801124573,1
+209,19,sick/A1_ com DCR,1,best_synthetic,0.9969334602355957,1
+209,19,sick/A1_ com DCR,1,matched_real_only,0.9989553689956665,1
+209,19,sick/A1_ com DCR,1,final_cv_selected,0.9969334602355957,1
+108,20,sick/A2_ com DCR,1,best_synthetic,0.2528724670410156,0
+108,20,sick/A2_ com DCR,1,matched_real_only,0.6036253571510315,1
+108,20,sick/A2_ com DCR,1,final_cv_selected,0.6036253571510315,1
+209,20,sick/A2_ com DCR,1,best_synthetic,0.687828540802002,1
+209,20,sick/A2_ com DCR,1,matched_real_only,0.017993653193116188,0
+209,20,sick/A2_ com DCR,1,final_cv_selected,0.017993653193116188,0
+108,21,sick/A3_ com DCR,1,best_synthetic,0.9999909400939941,1
+108,21,sick/A3_ com DCR,1,matched_real_only,0.9992735981941223,1
+108,21,sick/A3_ com DCR,1,final_cv_selected,0.9999909400939941,1
+209,21,sick/A3_ com DCR,1,best_synthetic,0.9959249496459961,1
+209,21,sick/A3_ com DCR,1,matched_real_only,0.9999415874481201,1
+209,21,sick/A3_ com DCR,1,final_cv_selected,0.9959249496459961,1
+108,22,sick/A4_ com DCR,1,best_synthetic,0.8771886825561523,1
+108,22,sick/A4_ com DCR,1,matched_real_only,0.951961874961853,1
+108,22,sick/A4_ com DCR,1,final_cv_selected,0.8771886825561523,1
+209,22,sick/A4_ com DCR,1,best_synthetic,0.9694898724555969,1
+209,22,sick/A4_ com DCR,1,matched_real_only,0.8264946341514587,1
+209,22,sick/A4_ com DCR,1,final_cv_selected,0.9694898724555969,1
+108,23,sick/A5_ com DCR,1,best_synthetic,0.9999991655349731,1
+108,23,sick/A5_ com DCR,1,matched_real_only,0.9999700784683228,1
+108,23,sick/A5_ com DCR,1,final_cv_selected,0.9999991655349731,1
+209,23,sick/A5_ com DCR,1,best_synthetic,0.9980441331863403,1
+209,23,sick/A5_ com DCR,1,matched_real_only,0.9999940395355225,1
+209,23,sick/A5_ com DCR,1,final_cv_selected,0.9980441331863403,1
+108,24,sick/A6_com DCR,1,best_synthetic,0.9997500777244568,1
+108,24,sick/A6_com DCR,1,matched_real_only,0.9915956854820251,1
+108,24,sick/A6_com DCR,1,final_cv_selected,0.9915956854820251,1
+209,24,sick/A6_com DCR,1,best_synthetic,0.9994341731071472,1
+209,24,sick/A6_com DCR,1,matched_real_only,0.9928027987480164,1
+209,24,sick/A6_com DCR,1,final_cv_selected,0.9928027987480164,1
+108,25,sick/A7_com LRA,1,best_synthetic,0.8800145983695984,1
+108,25,sick/A7_com LRA,1,matched_real_only,0.999993085861206,1
+108,25,sick/A7_com LRA,1,final_cv_selected,0.8800145983695984,1
+209,25,sick/A7_com LRA,1,best_synthetic,0.9999083280563354,1
+209,25,sick/A7_com LRA,1,matched_real_only,0.9999780654907227,1
+209,25,sick/A7_com LRA,1,final_cv_selected,0.9999083280563354,1
+108,26,sick/A8_com LRA,1,best_synthetic,0.9943915009498596,1
+108,26,sick/A8_com LRA,1,matched_real_only,0.9963817596435547,1
+108,26,sick/A8_com LRA,1,final_cv_selected,0.9943915009498596,1
+209,26,sick/A8_com LRA,1,best_synthetic,0.9975798726081848,1
+209,26,sick/A8_com LRA,1,matched_real_only,0.995907187461853,1
+209,26,sick/A8_com LRA,1,final_cv_selected,0.9975798726081848,1
+108,27,sick/A9_com Glomerulopatia,1,best_synthetic,0.9999995231628418,1
+108,27,sick/A9_com Glomerulopatia,1,matched_real_only,0.9999982118606567,1
+108,27,sick/A9_com Glomerulopatia,1,final_cv_selected,0.9999995231628418,1
+209,27,sick/A9_com Glomerulopatia,1,best_synthetic,0.9999897480010986,1
+209,27,sick/A9_com Glomerulopatia,1,matched_real_only,0.9997949004173279,1
+209,27,sick/A9_com Glomerulopatia,1,final_cv_selected,0.9999897480010986,1

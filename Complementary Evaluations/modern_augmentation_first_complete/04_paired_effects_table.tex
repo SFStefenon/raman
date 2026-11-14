@@ -1,0 +1,34 @@
+\begin{table*}[t]
+\centering
+\caption{Exploratory paired original-patient changes in balanced accuracy relative to modern real-only baselines.}
+\footnotesize
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+Comparator & DeltaBA\_pp & CI\_low\_pp & CI\_high\_pp & Recovered & New\_errors & Exact\_McNemar\_p & Permutation\_Method & Paired\_BA\_Permutation\_p & Holm\_McNemar\_p & Holm\_Paired\_BA\_p \\
+\midrule
+final\_cv\_selected & 0.000 & 0.000 & 0.000 & 0 & 0 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+fixed\_patch\_snv\_selected\_aug & 7.143 & -16.786 & 31.473 & 3 & 2 & 1.000 & exact & 0.812 & 1.000 & 1.000 \\
+fixed\_spectral\_mixer\_snv\_selected\_aug & 4.643 & -5.357 & 21.429 & 1 & 1 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::Conditional DDPM 12/class & -4.643 & -21.429 & 7.500 & 1 & 1 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::Conditional DDPM 30/class & 9.643 & 0.000 & 26.429 & 2 & 0 & 0.500 & exact & 0.500 & 1.000 & 1.000 \\
+generator::Conditional GAN 12/class & 0.000 & -21.429 & 21.429 & 1 & 1 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::Conditional GAN 30/class & 0.000 & -21.429 & 21.429 & 1 & 1 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::Conditional WGAN-GP 12/class & -4.643 & -21.429 & 5.000 & 1 & 1 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::Conditional WGAN-GP 30/class & 9.643 & -14.286 & 35.714 & 3 & 1 & 0.625 & exact & 0.625 & 1.000 & 1.000 \\
+generator::Latent EDM 12/class & 0.000 & -21.429 & 21.429 & 1 & 1 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::Latent EDM 30/class & 0.000 & -21.429 & 21.429 & 1 & 1 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::Rectified Flow 12/class & 0.000 & -21.429 & 21.429 & 1 & 1 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::Rectified Flow 30/class & 0.000 & 0.000 & 0.000 & 0 & 0 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::Stochastic Interpolant 12/class & 12.143 & 0.000 & 26.786 & 3 & 0 & 0.250 & exact & 0.250 & 1.000 & 1.000 \\
+generator::Stochastic Interpolant 30/class & 0.000 & 0.000 & 0.000 & 0 & 0 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::VP Flow Matching 12/class & 2.500 & -16.429 & 23.929 & 2 & 1 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+generator::VP Flow Matching 30/class & 0.000 & 0.000 & 0.000 & 0 & 0 & 1.000 & exact & 1.000 & 1.000 & 1.000 \\
+matched\_real\_only & 14.286 & -14.286 & 35.893 & 3 & 1 & 0.625 & exact & 0.625 & 1.000 & 1.000 \\
+real\_only::ConvNeXt-1D & 15.000 & -8.929 & 36.786 & 7 & 1 & 0.070 & exact & 0.188 & 1.000 & 1.000 \\
+real\_only::ModernTCN-lite & 24.643 & -1.786 & 49.321 & 9 & 1 & 0.021 & exact & 0.062 & 0.494 & 1.000 \\
+real\_only::Patch Transformer & 7.143 & -18.929 & 31.071 & 3 & 2 & 1.000 & exact & 0.812 & 1.000 & 1.000 \\
+real\_only::Spectral Mixer & 18.929 & -9.643 & 42.857 & 4 & 2 & 0.688 & exact & 0.375 & 1.000 & 1.000 \\
+runner\_up\_cv\_pair & 7.143 & -16.795 & 31.071 & 3 & 2 & 1.000 & exact & 0.812 & 1.000 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,82 @@
+arm,patient,truth,P_sick_mean,P_sick_sd,PositiveFraction,Runs,DecisionAgreement
+best_synthetic,healthy/P1_saudavel,0,0.2807404518437882,0.4646377965706291,0.3333333333333333,3,0.6666666666666667
+best_synthetic,healthy/P2_saudavel,0,0.006645627319812775,0.005316857317094435,0.0,3,1.0
+best_synthetic,healthy/P3_saudavel,0,0.003844468000655373,0.00045957575837523576,0.0,3,1.0
+best_synthetic,healthy/P4_saudavel,0,0.41863841920470196,0.5187172478866905,0.3333333333333333,3,0.6666666666666667
+best_synthetic,healthy/P5_saudavel,0,0.5899411087545255,0.5194957508303656,0.6666666666666666,3,0.6666666666666666
+best_synthetic,healthy/P6_saudavel,0,0.9979146321614584,0.0003926834082056876,1.0,3,1.0
+best_synthetic,healthy/P7_saudavel,0,8.943540918456468e-05,7.071048703990601e-05,0.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,0.9897459348042806,0.007008141253347154,1.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,0.9925853411356608,0.006114131405358564,1.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,0.9931386709213257,0.011106974998205212,1.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,0.845071534315745,0.25806377655222695,1.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,0.23145490884780884,0.02686065256410898,0.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,0.9870919783910116,0.002569307072577572,1.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,0.9823014934857687,0.011223358560753483,1.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,0.9984395702679952,0.0004212406507199069,1.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,0.9999827146530151,1.80715149395411e-05,1.0,3,1.0
+best_synthetic,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,0.9999824364980062,2.827556229732208e-05,1.0,3,1.0
+best_synthetic,sick/A10_ com Nefrite lúpica,1,0.9929807583491007,0.011420120145120975,1.0,3,1.0
+best_synthetic,sick/A1_ com DCR,1,0.996870199839274,0.0018958022298780177,1.0,3,1.0
+best_synthetic,sick/A2_ com DCR,1,0.507463276386261,0.2267791219787539,0.6666666666666666,3,0.6666666666666666
+best_synthetic,sick/A3_ com DCR,1,0.9976495107014974,0.0021020143885553044,1.0,3,1.0
+best_synthetic,sick/A4_ com DCR,1,0.9183401465415955,0.046955844635224876,1.0,3,1.0
+best_synthetic,sick/A5_ com DCR,1,0.9990676244099935,0.0009807542946807632,1.0,3,1.0
+best_synthetic,sick/A6_com DCR,1,0.9995030562082926,0.00022079153740216183,1.0,3,1.0
+best_synthetic,sick/A7_com LRA,1,0.9597096045811971,0.06901879357861818,1.0,3,1.0
+best_synthetic,sick/A8_com LRA,1,0.9956132968266805,0.001719724189432125,1.0,3,1.0
+best_synthetic,sick/A9_com Glomerulopatia,1,0.9997654755910238,0.00039694683875615347,1.0,3,1.0
+final_cv_selected,healthy/P1_saudavel,0,0.2807404518437882,0.4646377965706291,0.3333333333333333,3,0.6666666666666667
+final_cv_selected,healthy/P2_saudavel,0,0.006645627319812775,0.005316857317094435,0.0,3,1.0
+final_cv_selected,healthy/P3_saudavel,0,0.003844468000655373,0.00045957575837523576,0.0,3,1.0
+final_cv_selected,healthy/P4_saudavel,0,0.41863841920470196,0.5187172478866905,0.3333333333333333,3,0.6666666666666667
+final_cv_selected,healthy/P5_saudavel,0,0.5899411087545255,0.5194957508303656,0.6666666666666666,3,0.6666666666666666
+final_cv_selected,healthy/P6_saudavel,0,0.9967214862505595,0.0015992727895972683,1.0,3,1.0
+final_cv_selected,healthy/P7_saudavel,0,8.943540918456468e-05,7.071048703990601e-05,0.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,0.9897459348042806,0.007008141253347154,1.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,0.9925853411356608,0.006114131405358564,1.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,0.9931386709213257,0.011106974998205212,1.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,0.845071534315745,0.25806377655222695,1.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,0.23145490884780884,0.02686065256410898,0.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,0.9870919783910116,0.002569307072577572,1.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,0.9823014934857687,0.011223358560753483,1.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,0.9984395702679952,0.0004212406507199069,1.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,0.9999827146530151,1.80715149395411e-05,1.0,3,1.0
+final_cv_selected,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,0.9999824364980062,2.827556229732208e-05,1.0,3,1.0
+final_cv_selected,sick/A10_ com Nefrite lúpica,1,0.9999178449312845,0.00012557266212803045,1.0,3,1.0
+final_cv_selected,sick/A1_ com DCR,1,0.996870199839274,0.0018958022298780177,1.0,3,1.0
+final_cv_selected,sick/A2_ com DCR,1,0.5092003823568424,0.45146200684065163,0.6666666666666666,3,0.6666666666666666
+final_cv_selected,sick/A3_ com DCR,1,0.9976495107014974,0.0021020143885553044,1.0,3,1.0
+final_cv_selected,sick/A4_ com DCR,1,0.9183401465415955,0.046955844635224876,1.0,3,1.0
+final_cv_selected,sick/A5_ com DCR,1,0.9990676244099935,0.0009807542946807632,1.0,3,1.0
+final_cv_selected,sick/A6_com DCR,1,0.9934122165044149,0.0021859097001502956,1.0,3,1.0
+final_cv_selected,sick/A7_com LRA,1,0.9597096045811971,0.06901879357861818,1.0,3,1.0
+final_cv_selected,sick/A8_com LRA,1,0.9956132968266805,0.001719724189432125,1.0,3,1.0
+final_cv_selected,sick/A9_com Glomerulopatia,1,0.9997654755910238,0.00039694683875615347,1.0,3,1.0
+matched_real_only,healthy/P1_saudavel,0,0.8285828828811646,0.14838994099413244,1.0,3,1.0
+matched_real_only,healthy/P2_saudavel,0,0.32208053084711236,0.5261967525531576,0.3333333333333333,3,0.6666666666666667
+matched_real_only,healthy/P3_saudavel,0,0.11909866891801357,0.13817404339482112,0.0,3,1.0
+matched_real_only,healthy/P4_saudavel,0,0.6210183103879293,0.43141146829222005,0.6666666666666666,3,0.6666666666666666
+matched_real_only,healthy/P5_saudavel,0,0.4514817049105962,0.48054367233720346,0.3333333333333333,3,0.6666666666666667
+matched_real_only,healthy/P6_saudavel,0,0.9967214862505595,0.0015992727895972683,1.0,3,1.0
+matched_real_only,healthy/P7_saudavel,0,0.004502419149503112,0.0021098942483371522,0.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,0.990747849146525,0.001857953635200092,1.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,0.9781695008277893,0.00883044227468771,1.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,0.9996633330980936,0.0002446875306670805,1.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,0.8511178096135458,0.2426357100236827,1.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,0.23492710292339325,0.034436008029106645,0.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,0.993549664815267,0.002714276562690681,1.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,0.9946535229682922,0.0036294373824178124,1.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,0.9924432237943014,0.004209713024883957,1.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,0.9999876419703165,1.5029986144528415e-05,1.0,3,1.0
+matched_real_only,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,0.9999355872472128,4.497309023347721e-05,1.0,3,1.0
+matched_real_only,sick/A10_ com Nefrite lúpica,1,0.9999178449312845,0.00012557266212803045,1.0,3,1.0
+matched_real_only,sick/A1_ com DCR,1,0.9948965708414713,0.007798177108745463,1.0,3,1.0
+matched_real_only,sick/A2_ com DCR,1,0.5092003823568424,0.45146200684065163,0.6666666666666666,3,0.6666666666666666
+matched_real_only,sick/A3_ com DCR,1,0.9992804328600565,0.000657763887147688,1.0,3,1.0
+matched_real_only,sick/A4_ com DCR,1,0.8227365414301554,0.1311447706644602,1.0,3,1.0
+matched_real_only,sick/A5_ com DCR,1,0.9999798536300659,1.2574743751506538e-05,1.0,3,1.0
+matched_real_only,sick/A6_com DCR,1,0.9934122165044149,0.0021859097001502956,1.0,3,1.0
+matched_real_only,sick/A7_com LRA,1,0.9999854564666748,7.5130230219787265e-06,1.0,3,1.0
+matched_real_only,sick/A8_com LRA,1,0.9950993855794271,0.0018256317549206116,1.0,3,1.0
+matched_real_only,sick/A9_com Glomerulopatia,1,0.9926551381746928,0.012542915780901453,1.0,3,1.0

@@ -1,0 +1,28 @@
+fold,patient,candidate,RunnerUp,InnerBA,RunnerUpBA,SelectionMargin_pp
+1,healthy/P1_saudavel,Spectral Mixer || Multiscale patches,Spectral Mixer || SNV raw,0.9166666666666667,0.8666666666666667,5.000000000000004
+2,healthy/P2_saudavel,Spectral Mixer || Multiscale patches,Spectral Mixer || Scale-space bands,0.8666666666666667,0.8333333333333333,3.3333333333333437
+3,healthy/P3_saudavel,Patch Transformer || Gradient + shape,Patch Transformer || Multiscale patches,0.8166666666666667,0.8166666666666667,0.0
+4,healthy/P4_saudavel,Spectral Mixer || Gradient + shape,ConvNeXt-1D || Gradient + shape,0.8333333333333333,0.8166666666666667,1.6666666666666607
+5,healthy/P5_saudavel,Spectral Mixer || SNV raw,Spectral Mixer || Frequency hybrid,0.9166666666666667,0.8333333333333333,8.333333333333348
+6,healthy/P6_saudavel,Patch Transformer || SNV raw,Patch Transformer || Scale-space bands,1.0,0.9166666666666667,8.333333333333325
+7,healthy/P7_saudavel,Spectral Mixer || Scale-space bands,Spectral Mixer || SNV raw,0.8333333333333333,0.8333333333333333,0.0
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,Patch Transformer || SNV raw,Spectral Mixer || Multiscale patches,0.9285714285714286,0.8759398496240601,5.263157894736848
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,Patch Transformer || Gradient + shape,Patch Transformer || Frequency hybrid,0.8571428571428572,0.849624060150376,0.7518796992481258
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,Spectral Mixer || Multiscale patches,Spectral Mixer || Scale-space bands,0.9473684210526316,0.9473684210526316,0.0
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,Patch Transformer || Gradient + shape,Spectral Mixer || Gradient + shape,0.849624060150376,0.8308270676691729,1.8796992481203034
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,ConvNeXt-1D || Frequency hybrid,Patch Transformer || SNV raw,0.868421052631579,0.8421052631578947,2.6315789473684292
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,Patch Transformer || Gradient + shape,Spectral Mixer || Multiscale patches,0.8233082706766917,0.8045112781954887,1.8796992481202923
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,Patch Transformer || SNV raw,Spectral Mixer || Multiscale patches,0.8233082706766917,0.7518796992481203,7.14285714285714
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,Patch Transformer || SNV raw,Spectral Mixer || Scale-space bands,0.9285714285714286,0.8571428571428572,7.14285714285714
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,Spectral Mixer || SNV raw,Spectral Mixer || Gradient + shape,0.9285714285714286,0.9285714285714286,0.0
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,Spectral Mixer || SNV raw,Spectral Mixer || Gradient + shape,0.9285714285714286,0.9285714285714286,0.0
+18,sick/A10_ com Nefrite lúpica,Spectral Mixer || Scale-space bands,Patch Transformer || Scale-space bands,0.8759398496240601,0.8045112781954887,7.14285714285714
+19,sick/A1_ com DCR,Spectral Mixer || SNV raw,Spectral Mixer || Gradient + shape,0.9210526315789473,0.9210526315789473,0.0
+20,sick/A2_ com DCR,Patch Transformer || SNV raw,Patch Transformer || Scale-space bands,0.8308270676691729,0.8308270676691729,0.0
+21,sick/A3_ com DCR,Spectral Mixer || SNV raw,Patch Transformer || SNV raw,0.9022556390977443,0.8759398496240601,2.631578947368418
+22,sick/A4_ com DCR,Patch Transformer || Scale-space bands,Patch Transformer || Multiscale patches,0.868421052631579,0.8571428571428572,1.1278195488721776
+23,sick/A5_ com DCR,Spectral Mixer || Gradient + shape,Patch Transformer || Scale-space bands,0.8759398496240601,0.849624060150376,2.631578947368418
+24,sick/A6_com DCR,ModernTCN-lite || Gradient + shape,Spectral Mixer || Scale-space bands,0.8759398496240601,0.8233082706766917,5.263157894736848
+25,sick/A7_com LRA,Spectral Mixer || SNV raw,Spectral Mixer || Scale-space bands,0.8759398496240601,0.8571428571428572,1.8796992481202923
+26,sick/A8_com LRA,Patch Transformer || SNV raw,Spectral Mixer || SNV raw,0.8947368421052632,0.8421052631578947,5.263157894736848
+27,sick/A9_com Glomerulopatia,Spectral Mixer || Multiscale patches,ModernTCN-lite || Scale-space bands,0.8759398496240601,0.8421052631578947,3.383458646616544

@@ -1,0 +1,31 @@
+\begin{table*}[t]
+\centering
+\caption{Stage 2: joint classifier--representation ablation after generator selection.}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+Candidate & InnerBA\_mean & InnerBA\_sd & PooledInnerAUC & Selected & MeanSeconds & Outer\_folds \\
+\midrule
+Patch Transformer || SNV raw & 0.816 & 0.069 & 0.835 & 6 & 0.929 & 27 \\
+Spectral Mixer || SNV raw & 0.786 & 0.106 & 0.852 & 6 & 0.504 & 27 \\
+Spectral Mixer || Multiscale patches & 0.784 & 0.079 & 0.890 & 4 & 0.503 & 27 \\
+Spectral Mixer || Scale-space bands & 0.778 & 0.080 & 0.872 & 2 & 0.509 & 27 \\
+Patch Transformer || Scale-space bands & 0.767 & 0.082 & 0.798 & 1 & 0.937 & 27 \\
+Patch Transformer || Gradient + shape & 0.754 & 0.087 & 0.807 & 4 & 0.930 & 27 \\
+Spectral Mixer || Gradient + shape & 0.751 & 0.113 & 0.846 & 2 & 0.503 & 27 \\
+ModernTCN-lite || Gradient + shape & 0.745 & 0.060 & 0.774 & 1 & 9.743 & 27 \\
+ConvNeXt-1D || Gradient + shape & 0.741 & 0.065 & 0.792 & 0 & 4.109 & 27 \\
+Spectral Mixer || Frequency hybrid & 0.737 & 0.077 & 0.849 & 0 & 0.504 & 27 \\
+ConvNeXt-1D || Scale-space bands & 0.733 & 0.070 & 0.771 & 0 & 4.103 & 27 \\
+ModernTCN-lite || Multiscale patches & 0.733 & 0.065 & 0.769 & 0 & 9.787 & 27 \\
+ModernTCN-lite || Scale-space bands & 0.727 & 0.071 & 0.792 & 0 & 9.777 & 27 \\
+Patch Transformer || Multiscale patches & 0.723 & 0.074 & 0.753 & 0 & 0.929 & 27 \\
+Patch Transformer || Frequency hybrid & 0.720 & 0.081 & 0.771 & 0 & 0.930 & 27 \\
+ConvNeXt-1D || SNV raw & 0.714 & 0.067 & 0.765 & 0 & 4.104 & 27 \\
+ModernTCN-lite || SNV raw & 0.707 & 0.086 & 0.769 & 0 & 9.768 & 27 \\
+ModernTCN-lite || Frequency hybrid & 0.702 & 0.066 & 0.748 & 0 & 9.763 & 27 \\
+ConvNeXt-1D || Multiscale patches & 0.699 & 0.070 & 0.776 & 0 & 4.104 & 27 \\
+ConvNeXt-1D || Frequency hybrid & 0.659 & 0.078 & 0.760 & 1 & 4.108 & 27 \\
+\bottomrule
+\end{tabular}
+\end{table*}

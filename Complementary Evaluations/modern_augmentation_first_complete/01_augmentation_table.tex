@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\caption{Stage 1: fixed-probe generator selection on original-patient inner CV.}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+Candidate & InnerBA\_mean & InnerBA\_sd & PooledInnerAUC & Selected & MeanSeconds & Outer\_folds \\
+\midrule
+Rectified Flow 12/class & 0.727 & 0.076 & 0.773 & 3 & 0.630 & 27 \\
+Stochastic Interpolant 30/class & 0.721 & 0.082 & 0.775 & 2 & 1.064 & 27 \\
+VP Flow Matching 12/class & 0.719 & 0.081 & 0.773 & 2 & 0.637 & 27 \\
+Latent EDM 30/class & 0.718 & 0.105 & 0.759 & 1 & 1.068 & 27 \\
+Rectified Flow 30/class & 0.714 & 0.088 & 0.770 & 4 & 1.059 & 27 \\
+VP Flow Matching 30/class & 0.713 & 0.078 & 0.774 & 2 & 1.078 & 27 \\
+Real only & 0.704 & 0.098 & 0.751 & 4 & 0.232 & 27 \\
+Conditional GAN 30/class & 0.703 & 0.086 & 0.759 & 3 & 1.332 & 27 \\
+Stochastic Interpolant 12/class & 0.701 & 0.089 & 0.773 & 1 & 0.634 & 27 \\
+Conditional GAN 12/class & 0.700 & 0.088 & 0.764 & 2 & 0.901 & 27 \\
+Latent EDM 12/class & 0.690 & 0.076 & 0.740 & 0 & 0.638 & 27 \\
+Conditional WGAN-GP 30/class & 0.687 & 0.087 & 0.769 & 2 & 2.031 & 27 \\
+Conditional WGAN-GP 12/class & 0.677 & 0.072 & 0.765 & 0 & 1.583 & 27 \\
+Conditional DDPM 12/class & 0.673 & 0.097 & 0.669 & 1 & 0.691 & 27 \\
+Conditional DDPM 30/class & 0.672 & 0.072 & 0.682 & 0 & 1.124 & 27 \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,24 @@
+Comparator,DeltaBA_pp,CI_low_pp,CI_high_pp,Recovered,New_errors,Exact_McNemar_p,Permutation_Method,Paired_BA_Permutation_p,Holm_McNemar_p,Holm_Paired_BA_p
+final_cv_selected,0.0,0.0,0.0,0,0,1.0,exact,1.0,1.0,1.0
+fixed_patch_snv_selected_aug,7.14285714285714,-16.78571428571429,31.47321428571404,3,2,1.0,exact,0.8125,1.0,1.0
+fixed_spectral_mixer_snv_selected_aug,4.642857142857137,-5.357142857142855,21.42857142857143,1,1,1.0,exact,1.0,1.0,1.0
+generator::Conditional DDPM 12/class,-4.642857142857149,-21.42857142857143,7.499999999999996,1,1,1.0,exact,1.0,1.0,1.0
+generator::Conditional DDPM 30/class,9.642857142857132,0.0,26.428571428571423,2,0,0.5,exact,0.5,1.0,1.0
+generator::Conditional GAN 12/class,0.0,-21.42857142857143,21.42857142857143,1,1,1.0,exact,1.0,1.0,1.0
+generator::Conditional GAN 30/class,0.0,-21.42857142857143,21.42857142857143,1,1,1.0,exact,1.0,1.0,1.0
+generator::Conditional WGAN-GP 12/class,-4.642857142857149,-21.42857142857143,4.999999999999999,1,1,1.0,exact,1.0,1.0,1.0
+generator::Conditional WGAN-GP 30/class,9.642857142857132,-14.28571428571429,35.71428571428571,3,1,0.625,exact,0.625,1.0,1.0
+generator::Latent EDM 12/class,0.0,-21.42857142857143,21.42857142857143,1,1,1.0,exact,1.0,1.0,1.0
+generator::Latent EDM 30/class,0.0,-21.42857142857143,21.42857142857143,1,1,1.0,exact,1.0,1.0,1.0
+generator::Rectified Flow 12/class,0.0,-21.42857142857143,21.42857142857143,1,1,1.0,exact,1.0,1.0,1.0
+generator::Rectified Flow 30/class,0.0,0.0,0.0,0,0,1.0,exact,1.0,1.0,1.0
+generator::Stochastic Interpolant 12/class,12.142857142857144,0.0,26.785714285714292,3,0,0.25,exact,0.25,1.0,1.0
+generator::Stochastic Interpolant 30/class,0.0,0.0,0.0,0,0,1.0,exact,1.0,1.0,1.0
+generator::VP Flow Matching 12/class,2.499999999999991,-16.42857142857143,23.928571428571427,2,1,1.0,exact,1.0,1.0,1.0
+generator::VP Flow Matching 30/class,0.0,0.0,0.0,0,0,1.0,exact,1.0,1.0,1.0
+matched_real_only,14.28571428571428,-14.285714285714285,35.89285714285618,3,1,0.625,exact,0.625,1.0,1.0
+real_only::ConvNeXt-1D,14.999999999999991,-8.928571428571427,36.78571428571429,7,1,0.0703125,exact,0.1875,1.0,1.0
+real_only::ModernTCN-lite,24.642857142857146,-1.785714285714285,49.321428571428385,9,1,0.021484375,exact,0.0625,0.494140625,1.0
+real_only::Patch Transformer,7.14285714285714,-18.928571428571427,31.071428571428573,3,2,1.0,exact,0.8125,1.0,1.0
+real_only::Spectral Mixer,18.928571428571427,-9.642857142857148,42.85714285714286,4,2,0.6875,exact,0.375,1.0,1.0
+runner_up_cv_pair,7.14285714285714,-16.79464285714286,31.071428571428573,3,2,1.0,exact,0.8125,1.0,1.0

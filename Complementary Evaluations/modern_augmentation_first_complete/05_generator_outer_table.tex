@@ -1,0 +1,25 @@
+\begin{table*}[t]
+\centering
+\caption{Descriptive matched-generator comparison; outer-test results not used for selection.}
+\footnotesize
+\begin{tabular}{lrrrrrrrr}
+\toprule
+arm & Correct & N & Accuracy & BA & Sensitivity & Specificity & AUC & MCC \\
+\midrule
+generator::Conditional DDPM 12/class & 24 & 27 & 0.889 & 0.879 & 0.900 & 0.857 & 0.907 & 0.727 \\
+generator::Conditional DDPM 30/class & 22 & 27 & 0.815 & 0.736 & 0.900 & 0.571 & 0.829 & 0.497 \\
+generator::Conditional GAN 12/class & 24 & 27 & 0.889 & 0.832 & 0.950 & 0.714 & 0.864 & 0.700 \\
+generator::Conditional GAN 30/class & 24 & 27 & 0.889 & 0.832 & 0.950 & 0.714 & 0.857 & 0.700 \\
+generator::Conditional WGAN-GP 12/class & 24 & 27 & 0.889 & 0.879 & 0.900 & 0.857 & 0.893 & 0.727 \\
+generator::Conditional WGAN-GP 30/class & 22 & 27 & 0.815 & 0.736 & 0.900 & 0.571 & 0.850 & 0.497 \\
+generator::Latent EDM 12/class & 24 & 27 & 0.889 & 0.832 & 0.950 & 0.714 & 0.914 & 0.700 \\
+generator::Latent EDM 30/class & 24 & 27 & 0.889 & 0.832 & 0.950 & 0.714 & 0.914 & 0.700 \\
+generator::Rectified Flow 12/class & 24 & 27 & 0.889 & 0.832 & 0.950 & 0.714 & 0.893 & 0.700 \\
+generator::Rectified Flow 30/class & 24 & 27 & 0.889 & 0.832 & 0.950 & 0.714 & 0.893 & 0.700 \\
+generator::Stochastic Interpolant 12/class & 21 & 27 & 0.778 & 0.711 & 0.850 & 0.571 & 0.807 & 0.421 \\
+generator::Stochastic Interpolant 30/class & 24 & 27 & 0.889 & 0.832 & 0.950 & 0.714 & 0.893 & 0.700 \\
+generator::VP Flow Matching 12/class & 23 & 27 & 0.852 & 0.807 & 0.900 & 0.714 & 0.871 & 0.614 \\
+generator::VP Flow Matching 30/class & 24 & 27 & 0.889 & 0.832 & 0.950 & 0.714 & 0.893 & 0.700 \\
+\bottomrule
+\end{tabular}
+\end{table*}

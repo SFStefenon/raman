@@ -1,0 +1,649 @@
+fold,patient,truth,arm,augmentation,classifier,feature,score,pred
+1,healthy/P1_saudavel,0,best_synthetic,VP Flow Matching 30/class,Spectral Mixer,Multiscale patches,0.005529636982828379,0
+1,healthy/P1_saudavel,0,matched_real_only,Real only,Spectral Mixer,Multiscale patches,0.7418336868286133,1
+1,healthy/P1_saudavel,0,final_cv_selected,VP Flow Matching 30/class,Spectral Mixer,Multiscale patches,0.005529636982828379,0
+1,healthy/P1_saudavel,0,runner_up_cv_pair,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.021152175962924957,0
+1,healthy/P1_saudavel,0,fixed_patch_snv_selected_aug,VP Flow Matching 30/class,Patch Transformer,SNV raw,0.18043766915798187,0
+1,healthy/P1_saudavel,0,fixed_spectral_mixer_snv_selected_aug,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.021152175962924957,0
+1,healthy/P1_saudavel,0,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.00674342131242156,0
+1,healthy/P1_saudavel,0,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.12484268099069595,0
+1,healthy/P1_saudavel,0,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.1308797001838684,0
+1,healthy/P1_saudavel,0,real_only::Spectral Mixer,Real only,Spectral Mixer,Multiscale patches,0.7418336868286133,1
+1,healthy/P1_saudavel,0,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,Multiscale patches,0.0025265899021178484,0
+1,healthy/P1_saudavel,0,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,Multiscale patches,0.03437518700957298,0
+1,healthy/P1_saudavel,0,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,Multiscale patches,0.00026023603277280927,0
+1,healthy/P1_saudavel,0,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,Multiscale patches,0.0028844198677688837,0
+1,healthy/P1_saudavel,0,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,Multiscale patches,0.0002993882226292044,0
+1,healthy/P1_saudavel,0,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,Multiscale patches,0.005529636982828379,0
+1,healthy/P1_saudavel,0,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,Multiscale patches,0.11386734247207642,0
+1,healthy/P1_saudavel,0,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,Multiscale patches,0.760213315486908,1
+1,healthy/P1_saudavel,0,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,Multiscale patches,0.00017118523828685284,0
+1,healthy/P1_saudavel,0,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,Multiscale patches,1.4587553778255824e-05,0
+1,healthy/P1_saudavel,0,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,Multiscale patches,0.011880514211952686,0
+1,healthy/P1_saudavel,0,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,Multiscale patches,0.9951334595680237,1
+1,healthy/P1_saudavel,0,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,Multiscale patches,0.16868813335895538,0
+1,healthy/P1_saudavel,0,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,Multiscale patches,0.17338544130325317,0
+2,healthy/P2_saudavel,0,best_synthetic,VP Flow Matching 12/class,Spectral Mixer,Multiscale patches,0.0069562518037855625,0
+2,healthy/P2_saudavel,0,matched_real_only,Real only,Spectral Mixer,Multiscale patches,0.9296792149543762,1
+2,healthy/P2_saudavel,0,final_cv_selected,VP Flow Matching 12/class,Spectral Mixer,Multiscale patches,0.0069562518037855625,0
+2,healthy/P2_saudavel,0,runner_up_cv_pair,VP Flow Matching 12/class,Spectral Mixer,Scale-space bands,0.003320464165881276,0
+2,healthy/P2_saudavel,0,fixed_patch_snv_selected_aug,VP Flow Matching 12/class,Patch Transformer,SNV raw,0.11141693592071533,0
+2,healthy/P2_saudavel,0,fixed_spectral_mixer_snv_selected_aug,VP Flow Matching 12/class,Spectral Mixer,SNV raw,0.00012667119153775275,0
+2,healthy/P2_saudavel,0,real_only::Patch Transformer,Real only,Patch Transformer,Multiscale patches,0.9968520998954773,1
+2,healthy/P2_saudavel,0,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Scale-space bands,0.7555920481681824,1
+2,healthy/P2_saudavel,0,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.3069418668746948,0
+2,healthy/P2_saudavel,0,real_only::Spectral Mixer,Real only,Spectral Mixer,Multiscale patches,0.9296792149543762,1
+2,healthy/P2_saudavel,0,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,Multiscale patches,0.00709849176928401,0
+2,healthy/P2_saudavel,0,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,Multiscale patches,0.0021152745466679335,0
+2,healthy/P2_saudavel,0,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,Multiscale patches,0.013603056780993938,0
+2,healthy/P2_saudavel,0,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,Multiscale patches,0.0015729556325823069,0
+2,healthy/P2_saudavel,0,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,Multiscale patches,0.0069562518037855625,0
+2,healthy/P2_saudavel,0,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,Multiscale patches,0.002823906484991312,0
+2,healthy/P2_saudavel,0,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,Multiscale patches,0.003193267621099949,0
+2,healthy/P2_saudavel,0,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,Multiscale patches,0.0006396454409696162,0
+2,healthy/P2_saudavel,0,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,Multiscale patches,0.17806269228458405,0
+2,healthy/P2_saudavel,0,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,Multiscale patches,0.001390106976032257,0
+2,healthy/P2_saudavel,0,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,Multiscale patches,0.9942591190338135,1
+2,healthy/P2_saudavel,0,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,Multiscale patches,0.38812389969825745,0
+2,healthy/P2_saudavel,0,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,Multiscale patches,0.28464847803115845,0
+2,healthy/P2_saudavel,0,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,Multiscale patches,0.939253032207489,1
+3,healthy/P3_saudavel,0,best_synthetic,Latent EDM 30/class,Patch Transformer,Gradient + shape,0.003456439357250929,0
+3,healthy/P3_saudavel,0,matched_real_only,Real only,Patch Transformer,Gradient + shape,0.005637818947434425,0
+3,healthy/P3_saudavel,0,final_cv_selected,Latent EDM 30/class,Patch Transformer,Gradient + shape,0.003456439357250929,0
+3,healthy/P3_saudavel,0,runner_up_cv_pair,Latent EDM 30/class,Patch Transformer,Multiscale patches,0.9055653810501099,1
+3,healthy/P3_saudavel,0,fixed_patch_snv_selected_aug,Latent EDM 30/class,Patch Transformer,SNV raw,0.0021673424635082483,0
+3,healthy/P3_saudavel,0,fixed_spectral_mixer_snv_selected_aug,Latent EDM 30/class,Spectral Mixer,SNV raw,7.463426300091669e-05,0
+3,healthy/P3_saudavel,0,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.005637818947434425,0
+3,healthy/P3_saudavel,0,real_only::ModernTCN-lite,Real only,ModernTCN-lite,SNV raw,0.6086544990539551,1
+3,healthy/P3_saudavel,0,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,SNV raw,0.5746451020240784,1
+3,healthy/P3_saudavel,0,real_only::Spectral Mixer,Real only,Spectral Mixer,Frequency hybrid,2.577587656560354e-05,0
+3,healthy/P3_saudavel,0,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,Gradient + shape,0.004702070727944374,0
+3,healthy/P3_saudavel,0,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,Gradient + shape,0.0037958656903356314,0
+3,healthy/P3_saudavel,0,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,Gradient + shape,0.010871452279388905,0
+3,healthy/P3_saudavel,0,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,Gradient + shape,0.005898426286876202,0
+3,healthy/P3_saudavel,0,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,Gradient + shape,0.0053499555215239525,0
+3,healthy/P3_saudavel,0,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,Gradient + shape,0.004549569915980101,0
+3,healthy/P3_saudavel,0,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,Gradient + shape,0.007630061358213425,0
+3,healthy/P3_saudavel,0,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,Gradient + shape,0.003456439357250929,0
+3,healthy/P3_saudavel,0,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,Gradient + shape,0.008656392805278301,0
+3,healthy/P3_saudavel,0,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,Gradient + shape,0.01546565257012844,0
+3,healthy/P3_saudavel,0,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,Gradient + shape,0.011355053633451462,0
+3,healthy/P3_saudavel,0,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,Gradient + shape,0.002988712629303336,0
+3,healthy/P3_saudavel,0,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,Gradient + shape,0.2274831384420395,0
+3,healthy/P3_saudavel,0,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,Gradient + shape,0.27863991260528564,0
+4,healthy/P4_saudavel,0,best_synthetic,Conditional GAN 12/class,Spectral Mixer,Gradient + shape,0.002676847856491804,0
+4,healthy/P4_saudavel,0,matched_real_only,Real only,Spectral Mixer,Gradient + shape,0.7374725341796875,1
+4,healthy/P4_saudavel,0,final_cv_selected,Conditional GAN 12/class,Spectral Mixer,Gradient + shape,0.002676847856491804,0
+4,healthy/P4_saudavel,0,runner_up_cv_pair,Conditional GAN 12/class,ConvNeXt-1D,Gradient + shape,0.5074132084846497,1
+4,healthy/P4_saudavel,0,fixed_patch_snv_selected_aug,Conditional GAN 12/class,Patch Transformer,SNV raw,0.9911547899246216,1
+4,healthy/P4_saudavel,0,fixed_spectral_mixer_snv_selected_aug,Conditional GAN 12/class,Spectral Mixer,SNV raw,0.9501017332077026,1
+4,healthy/P4_saudavel,0,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.01540466584265232,0
+4,healthy/P4_saudavel,0,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.36852091550827026,0
+4,healthy/P4_saudavel,0,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.32533377408981323,0
+4,healthy/P4_saudavel,0,real_only::Spectral Mixer,Real only,Spectral Mixer,Scale-space bands,0.9983158111572266,1
+4,healthy/P4_saudavel,0,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,Gradient + shape,0.9185202121734619,1
+4,healthy/P4_saudavel,0,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,Gradient + shape,0.0005539822741411626,0
+4,healthy/P4_saudavel,0,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,Gradient + shape,0.9980276226997375,1
+4,healthy/P4_saudavel,0,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,Gradient + shape,0.028549013659358025,0
+4,healthy/P4_saudavel,0,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,Gradient + shape,0.7978606820106506,1
+4,healthy/P4_saudavel,0,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,Gradient + shape,0.002059085527434945,0
+4,healthy/P4_saudavel,0,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,Gradient + shape,0.9697494506835938,1
+4,healthy/P4_saudavel,0,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,Gradient + shape,0.08304990828037262,0
+4,healthy/P4_saudavel,0,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,Gradient + shape,0.006519922986626625,0
+4,healthy/P4_saudavel,0,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,Gradient + shape,0.9487648606300354,1
+4,healthy/P4_saudavel,0,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,Gradient + shape,0.002676847856491804,0
+4,healthy/P4_saudavel,0,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,Gradient + shape,0.0013325079344213009,0
+4,healthy/P4_saudavel,0,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,Gradient + shape,0.1414320468902588,0
+4,healthy/P4_saudavel,0,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,Gradient + shape,0.05341142788529396,0
+5,healthy/P5_saudavel,0,best_synthetic,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.765964150428772,1
+5,healthy/P5_saudavel,0,matched_real_only,Real only,Spectral Mixer,SNV raw,0.2576183080673218,0
+5,healthy/P5_saudavel,0,final_cv_selected,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.765964150428772,1
+5,healthy/P5_saudavel,0,runner_up_cv_pair,Rectified Flow 30/class,Spectral Mixer,Frequency hybrid,0.0036671736743301153,0
+5,healthy/P5_saudavel,0,fixed_patch_snv_selected_aug,Rectified Flow 30/class,Patch Transformer,SNV raw,0.25050878524780273,0
+5,healthy/P5_saudavel,0,fixed_spectral_mixer_snv_selected_aug,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.765964150428772,1
+5,healthy/P5_saudavel,0,real_only::Patch Transformer,Real only,Patch Transformer,SNV raw,0.4140203595161438,0
+5,healthy/P5_saudavel,0,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Multiscale patches,0.10299795120954514,0
+5,healthy/P5_saudavel,0,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.35331761837005615,0
+5,healthy/P5_saudavel,0,real_only::Spectral Mixer,Real only,Spectral Mixer,Frequency hybrid,0.00012798669922631234,0
+5,healthy/P5_saudavel,0,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.27116087079048157,0
+5,healthy/P5_saudavel,0,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.765964150428772,1
+5,healthy/P5_saudavel,0,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,SNV raw,0.5031037330627441,1
+5,healthy/P5_saudavel,0,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,SNV raw,0.7494440078735352,1
+5,healthy/P5_saudavel,0,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,SNV raw,0.30148375034332275,0
+5,healthy/P5_saudavel,0,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.6948847770690918,1
+5,healthy/P5_saudavel,0,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,SNV raw,0.002239419613033533,0
+5,healthy/P5_saudavel,0,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,SNV raw,0.07260062545537949,0
+5,healthy/P5_saudavel,0,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,SNV raw,0.10543805360794067,0
+5,healthy/P5_saudavel,0,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,SNV raw,0.5912238359451294,1
+5,healthy/P5_saudavel,0,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,SNV raw,0.002226893324404955,0
+5,healthy/P5_saudavel,0,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,SNV raw,0.009904920123517513,0
+5,healthy/P5_saudavel,0,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,SNV raw,0.053793877363204956,0
+5,healthy/P5_saudavel,0,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,SNV raw,0.484876811504364,0
+6,healthy/P6_saudavel,0,best_synthetic,Rectified Flow 12/class,Patch Transformer,SNV raw,0.9977812170982361,1
+6,healthy/P6_saudavel,0,matched_real_only,Real only,Patch Transformer,SNV raw,0.9979531764984131,1
+6,healthy/P6_saudavel,0,final_cv_selected,Real only,Patch Transformer,SNV raw,0.9979531764984131,1
+6,healthy/P6_saudavel,0,runner_up_cv_pair,Real only,Patch Transformer,Scale-space bands,0.9948910474777222,1
+6,healthy/P6_saudavel,0,fixed_patch_snv_selected_aug,Real only,Patch Transformer,SNV raw,0.9979531764984131,1
+6,healthy/P6_saudavel,0,fixed_spectral_mixer_snv_selected_aug,Real only,Spectral Mixer,SNV raw,0.6446552872657776,1
+6,healthy/P6_saudavel,0,real_only::Patch Transformer,Real only,Patch Transformer,SNV raw,0.9979531764984131,1
+6,healthy/P6_saudavel,0,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.9992782473564148,1
+6,healthy/P6_saudavel,0,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Scale-space bands,0.7406227588653564,1
+6,healthy/P6_saudavel,0,real_only::Spectral Mixer,Real only,Spectral Mixer,Scale-space bands,0.9962190985679626,1
+6,healthy/P6_saudavel,0,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,SNV raw,0.9977812170982361,1
+6,healthy/P6_saudavel,0,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,SNV raw,0.9974204301834106,1
+6,healthy/P6_saudavel,0,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,SNV raw,0.9964474439620972,1
+6,healthy/P6_saudavel,0,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,SNV raw,0.9973854422569275,1
+6,healthy/P6_saudavel,0,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,SNV raw,0.9978759288787842,1
+6,healthy/P6_saudavel,0,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,SNV raw,0.9970352649688721,1
+6,healthy/P6_saudavel,0,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,SNV raw,0.9973121881484985,1
+6,healthy/P6_saudavel,0,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,SNV raw,0.9983741044998169,1
+6,healthy/P6_saudavel,0,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,SNV raw,0.9940179586410522,1
+6,healthy/P6_saudavel,0,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,SNV raw,0.9933498501777649,1
+6,healthy/P6_saudavel,0,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,SNV raw,0.9973645806312561,1
+6,healthy/P6_saudavel,0,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9987479448318481,1
+6,healthy/P6_saudavel,0,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,SNV raw,0.9953033924102783,1
+6,healthy/P6_saudavel,0,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,SNV raw,0.9915648698806763,1
+7,healthy/P7_saudavel,0,best_synthetic,VP Flow Matching 12/class,Spectral Mixer,Scale-space bands,1.0504839337954763e-05,0
+7,healthy/P7_saudavel,0,matched_real_only,Real only,Spectral Mixer,Scale-space bands,0.0069121927954256535,0
+7,healthy/P7_saudavel,0,final_cv_selected,VP Flow Matching 12/class,Spectral Mixer,Scale-space bands,1.0504839337954763e-05,0
+7,healthy/P7_saudavel,0,runner_up_cv_pair,VP Flow Matching 12/class,Spectral Mixer,SNV raw,0.0028531160205602646,0
+7,healthy/P7_saudavel,0,fixed_patch_snv_selected_aug,VP Flow Matching 12/class,Patch Transformer,SNV raw,0.9769954681396484,1
+7,healthy/P7_saudavel,0,fixed_spectral_mixer_snv_selected_aug,VP Flow Matching 12/class,Spectral Mixer,SNV raw,0.0028531160205602646,0
+7,healthy/P7_saudavel,0,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.5853496789932251,1
+7,healthy/P7_saudavel,0,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.28949418663978577,0
+7,healthy/P7_saudavel,0,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.2809550166130066,0
+7,healthy/P7_saudavel,0,real_only::Spectral Mixer,Real only,Spectral Mixer,Frequency hybrid,0.9952424764633179,1
+7,healthy/P7_saudavel,0,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,Scale-space bands,2.1065501641714945e-05,0
+7,healthy/P7_saudavel,0,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,Scale-space bands,0.006875066552311182,0
+7,healthy/P7_saudavel,0,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,Scale-space bands,2.0654857507906854e-05,0
+7,healthy/P7_saudavel,0,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,Scale-space bands,0.006399111356586218,0
+7,healthy/P7_saudavel,0,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,Scale-space bands,1.0504839337954763e-05,0
+7,healthy/P7_saudavel,0,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,Scale-space bands,0.01914788782596588,0
+7,healthy/P7_saudavel,0,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,Scale-space bands,0.00016070203855633736,0
+7,healthy/P7_saudavel,0,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,Scale-space bands,0.0011979126138612628,0
+7,healthy/P7_saudavel,0,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,Scale-space bands,0.047470130026340485,0
+7,healthy/P7_saudavel,0,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,Scale-space bands,0.001556452363729477,0
+7,healthy/P7_saudavel,0,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,Scale-space bands,4.413339411257766e-05,0
+7,healthy/P7_saudavel,0,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,Scale-space bands,8.334451194969006e-06,0
+7,healthy/P7_saudavel,0,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,Scale-space bands,0.0044647883623838425,0
+7,healthy/P7_saudavel,0,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,Scale-space bands,0.6025439500808716,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,best_synthetic,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9816851019859314,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,matched_real_only,Real only,Patch Transformer,SNV raw,0.9894692897796631,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,final_cv_selected,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9816851019859314,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,runner_up_cv_pair,Conditional GAN 30/class,Spectral Mixer,Multiscale patches,0.9999932050704956,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,fixed_patch_snv_selected_aug,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9816851019859314,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Conditional GAN 30/class,Spectral Mixer,SNV raw,0.9998940229415894,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.9901325702667236,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Scale-space bands,0.9997671246528625,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.9908496141433716,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Scale-space bands,0.9999877214431763,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,SNV raw,0.9880810976028442,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,SNV raw,0.9903535842895508,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,SNV raw,0.987623929977417,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,SNV raw,0.9905123114585876,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,SNV raw,0.9820236563682556,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,SNV raw,0.9883881211280823,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,SNV raw,0.9907178282737732,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,SNV raw,0.9942235350608826,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,SNV raw,0.5615890026092529,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,SNV raw,0.7547289133071899,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,SNV raw,0.9897498488426208,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9816851019859314,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,SNV raw,0.9858788847923279,1
+8,sick/.ipynb_checkpoints/A10_ com Nefrite lúpica-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,SNV raw,0.9734902381896973,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,best_synthetic,Conditional GAN 12/class,Patch Transformer,Gradient + shape,0.9856186509132385,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,matched_real_only,Real only,Patch Transformer,Gradient + shape,0.9808123111724854,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,final_cv_selected,Conditional GAN 12/class,Patch Transformer,Gradient + shape,0.9856186509132385,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,runner_up_cv_pair,Conditional GAN 12/class,Patch Transformer,Frequency hybrid,0.8359621167182922,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,fixed_patch_snv_selected_aug,Conditional GAN 12/class,Patch Transformer,SNV raw,0.8219698667526245,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Conditional GAN 12/class,Spectral Mixer,SNV raw,0.9506829977035522,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.9808123111724854,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.38760021328926086,0
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.7206747531890869,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,SNV raw,0.9979033470153809,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,Gradient + shape,0.9949074387550354,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,Gradient + shape,0.836137592792511,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,Gradient + shape,0.9695417284965515,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,Gradient + shape,0.6837658286094666,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,Gradient + shape,0.9235732555389404,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,Gradient + shape,0.990541398525238,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,Gradient + shape,0.9795743227005005,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,Gradient + shape,0.9872983694076538,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,Gradient + shape,0.8288154602050781,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,Gradient + shape,0.9818356037139893,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,Gradient + shape,0.9856186509132385,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,Gradient + shape,0.9711303114891052,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,Gradient + shape,0.8469007611274719,1
+9,sick/.ipynb_checkpoints/A1_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,Gradient + shape,0.9763709306716919,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,best_synthetic,Rectified Flow 12/class,Spectral Mixer,Multiscale patches,0.999408483505249,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,matched_real_only,Real only,Spectral Mixer,Multiscale patches,0.9999432563781738,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,final_cv_selected,Rectified Flow 12/class,Spectral Mixer,Multiscale patches,0.999408483505249,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,runner_up_cv_pair,Rectified Flow 12/class,Spectral Mixer,Scale-space bands,0.9996438026428223,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,fixed_patch_snv_selected_aug,Rectified Flow 12/class,Patch Transformer,SNV raw,0.9159932136535645,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.9917659163475037,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,SNV raw,0.9763596653938293,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Frequency hybrid,0.18146610260009766,0
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Frequency hybrid,0.24234139919281006,0
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Multiscale patches,0.9999432563781738,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,Multiscale patches,0.999408483505249,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,Multiscale patches,0.9986785054206848,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,Multiscale patches,0.9998868703842163,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,Multiscale patches,0.9997466206550598,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,Multiscale patches,0.9999517202377319,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,Multiscale patches,0.9997134804725647,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,Multiscale patches,0.9998654127120972,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,Multiscale patches,0.9996262788772583,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,Multiscale patches,0.9992875456809998,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,Multiscale patches,0.9992344379425049,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,Multiscale patches,0.9997465014457703,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,Multiscale patches,0.9994082450866699,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,Multiscale patches,1.0,1
+10,sick/.ipynb_checkpoints/A2_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,Multiscale patches,0.9999682903289795,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,best_synthetic,Rectified Flow 12/class,Patch Transformer,Gradient + shape,0.5470854043960571,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,matched_real_only,Real only,Patch Transformer,Gradient + shape,0.5709722638130188,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,final_cv_selected,Rectified Flow 12/class,Patch Transformer,Gradient + shape,0.5470854043960571,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,runner_up_cv_pair,Rectified Flow 12/class,Spectral Mixer,Gradient + shape,0.9998611211776733,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,fixed_patch_snv_selected_aug,Rectified Flow 12/class,Patch Transformer,SNV raw,0.9389225244522095,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.9994934797286987,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.5709722638130188,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.2639475166797638,0
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Multiscale patches,0.19143013656139374,0
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Gradient + shape,0.9999686479568481,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,Gradient + shape,0.5470854043960571,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,Gradient + shape,0.9864288568496704,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,Gradient + shape,0.4150336682796478,0
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,Gradient + shape,0.941908597946167,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,Gradient + shape,0.4291459023952484,0
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,Gradient + shape,0.9934606552124023,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,Gradient + shape,0.9698675870895386,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,Gradient + shape,0.9972352385520935,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,Gradient + shape,0.9767507314682007,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,Gradient + shape,0.16412681341171265,0
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,Gradient + shape,0.9765190482139587,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,Gradient + shape,0.9953837990760803,1
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,Gradient + shape,0.31717488169670105,0
+11,sick/.ipynb_checkpoints/A3_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,Gradient + shape,0.49026724696159363,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,best_synthetic,Stochastic Interpolant 30/class,ConvNeXt-1D,Frequency hybrid,0.2622953951358795,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,matched_real_only,Real only,ConvNeXt-1D,Frequency hybrid,0.20396727323532104,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,final_cv_selected,Stochastic Interpolant 30/class,ConvNeXt-1D,Frequency hybrid,0.2622953951358795,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,runner_up_cv_pair,Stochastic Interpolant 30/class,Patch Transformer,SNV raw,0.9275020956993103,1
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,fixed_patch_snv_selected_aug,Stochastic Interpolant 30/class,Patch Transformer,SNV raw,0.9275020956993103,1
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Stochastic Interpolant 30/class,Spectral Mixer,SNV raw,0.9998476505279541,1
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,Scale-space bands,0.8211942315101624,1
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Scale-space bands,0.45545968413352966,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Frequency hybrid,0.20396727323532104,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Frequency hybrid,0.9998650550842285,1
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,ConvNeXt-1D,Frequency hybrid,0.23690521717071533,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,ConvNeXt-1D,Frequency hybrid,0.13950864970684052,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,ConvNeXt-1D,Frequency hybrid,0.2754268944263458,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,ConvNeXt-1D,Frequency hybrid,0.2622953951358795,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,ConvNeXt-1D,Frequency hybrid,0.2806643843650818,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,ConvNeXt-1D,Frequency hybrid,0.1424345225095749,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,ConvNeXt-1D,Frequency hybrid,0.25590354204177856,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,ConvNeXt-1D,Frequency hybrid,0.22992615401744843,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,ConvNeXt-1D,Frequency hybrid,0.45614778995513916,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,ConvNeXt-1D,Frequency hybrid,0.2640732228755951,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,ConvNeXt-1D,Frequency hybrid,0.18163767457008362,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,ConvNeXt-1D,Frequency hybrid,0.2994592487812042,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,ConvNeXt-1D,Frequency hybrid,0.28562214970588684,0
+12,sick/.ipynb_checkpoints/A4_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,ConvNeXt-1D,Frequency hybrid,0.40534543991088867,0
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,best_synthetic,Conditional WGAN-GP 30/class,Patch Transformer,Gradient + shape,0.9848328232765198,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,matched_real_only,Real only,Patch Transformer,Gradient + shape,0.9932610392570496,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,final_cv_selected,Conditional WGAN-GP 30/class,Patch Transformer,Gradient + shape,0.9848328232765198,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,runner_up_cv_pair,Conditional WGAN-GP 30/class,Spectral Mixer,Multiscale patches,0.9968145489692688,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,fixed_patch_snv_selected_aug,Conditional WGAN-GP 30/class,Patch Transformer,SNV raw,0.986126720905304,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Conditional WGAN-GP 30/class,Spectral Mixer,SNV raw,0.9983019828796387,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,Frequency hybrid,0.9848225116729736,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Scale-space bands,0.9999477863311768,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,SNV raw,0.9968505501747131,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Multiscale patches,0.9999933242797852,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,Gradient + shape,0.9923967719078064,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,Gradient + shape,0.993186354637146,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,Gradient + shape,0.9919818043708801,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,Gradient + shape,0.972000241279602,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,Gradient + shape,0.9941726326942444,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,Gradient + shape,0.9930782914161682,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,Gradient + shape,0.9911393523216248,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,Gradient + shape,0.9727662801742554,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,Gradient + shape,0.9890297055244446,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,Gradient + shape,0.9317445755004883,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,Gradient + shape,0.9920319318771362,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,Gradient + shape,0.9808336496353149,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,Gradient + shape,0.9850865602493286,1
+13,sick/.ipynb_checkpoints/A5_ com DCR-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,Gradient + shape,0.9848328232765198,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,best_synthetic,Conditional DDPM 12/class,Patch Transformer,SNV raw,0.9698876738548279,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,matched_real_only,Real only,Patch Transformer,SNV raw,0.9905917048454285,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,final_cv_selected,Conditional DDPM 12/class,Patch Transformer,SNV raw,0.9698876738548279,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,runner_up_cv_pair,Conditional DDPM 12/class,Spectral Mixer,Multiscale patches,0.9993807077407837,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,fixed_patch_snv_selected_aug,Conditional DDPM 12/class,Patch Transformer,SNV raw,0.9698876738548279,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Conditional DDPM 12/class,Spectral Mixer,SNV raw,0.9997902512550354,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.9872544407844543,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.9829421043395996,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,SNV raw,0.9908375144004822,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Gradient + shape,0.999997615814209,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,SNV raw,0.9939384460449219,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,SNV raw,0.9502841830253601,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,SNV raw,0.994652271270752,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,SNV raw,0.9680782556533813,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,SNV raw,0.9952860474586487,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,SNV raw,0.9584805965423584,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,SNV raw,0.9917911291122437,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,SNV raw,0.9959582686424255,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,SNV raw,0.9698876738548279,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,SNV raw,0.9491092562675476,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,SNV raw,0.994440495967865,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9969854950904846,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,SNV raw,0.9861311912536621,1
+14,sick/.ipynb_checkpoints/A6_com DCR-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,SNV raw,0.9663670063018799,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,best_synthetic,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9988791346549988,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,matched_real_only,Real only,Patch Transformer,SNV raw,0.9935113787651062,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,final_cv_selected,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9988791346549988,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,runner_up_cv_pair,Conditional GAN 30/class,Spectral Mixer,Scale-space bands,0.9999998807907104,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,fixed_patch_snv_selected_aug,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9988791346549988,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Conditional GAN 30/class,Spectral Mixer,SNV raw,1.0,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,Scale-space bands,0.9905093908309937,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Scale-space bands,0.9992197751998901,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.9857407212257385,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Scale-space bands,0.9999986886978149,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,SNV raw,0.9689533710479736,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,SNV raw,0.9948544502258301,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,SNV raw,0.9863120913505554,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,SNV raw,0.9944412112236023,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,SNV raw,0.906404435634613,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,SNV raw,0.993743360042572,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,SNV raw,0.994508683681488,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,SNV raw,0.9966478943824768,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,SNV raw,0.9940495491027832,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,SNV raw,0.9959812164306641,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,SNV raw,0.9971275925636292,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9988791346549988,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,SNV raw,0.9021067023277283,1
+15,sick/.ipynb_checkpoints/A7_com LRA-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,SNV raw,0.9527574181556702,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,best_synthetic,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.9999974966049194,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,matched_real_only,Real only,Spectral Mixer,SNV raw,0.9999704360961914,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,final_cv_selected,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.9999974966049194,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,runner_up_cv_pair,Rectified Flow 12/class,Spectral Mixer,Gradient + shape,0.9999967813491821,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,fixed_patch_snv_selected_aug,Rectified Flow 12/class,Patch Transformer,SNV raw,0.9942532181739807,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.9999974966049194,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,Scale-space bands,0.9934014678001404,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.983052134513855,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.977024257183075,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Gradient + shape,0.9999617338180542,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.9999974966049194,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.999997615814209,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,SNV raw,0.9999270439147949,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,SNV raw,0.999894380569458,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,SNV raw,0.999985933303833,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.9999933242797852,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,SNV raw,0.9999997615814209,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,SNV raw,0.9999994039535522,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,SNV raw,0.9997755885124207,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,SNV raw,0.9999428987503052,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,SNV raw,0.9999995231628418,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,SNV raw,0.9999985694885254,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,SNV raw,0.9999971389770508,1
+16,sick/.ipynb_checkpoints/A8_com LRA-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,SNV raw,0.9999922513961792,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,best_synthetic,Stochastic Interpolant 12/class,Spectral Mixer,SNV raw,0.999997615814209,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,matched_real_only,Real only,Spectral Mixer,SNV raw,0.9999247789382935,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,final_cv_selected,Stochastic Interpolant 12/class,Spectral Mixer,SNV raw,0.999997615814209,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,runner_up_cv_pair,Stochastic Interpolant 12/class,Spectral Mixer,Gradient + shape,0.9985405206680298,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,fixed_patch_snv_selected_aug,Stochastic Interpolant 12/class,Patch Transformer,SNV raw,0.9949437975883484,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,fixed_spectral_mixer_snv_selected_aug,Stochastic Interpolant 12/class,Spectral Mixer,SNV raw,0.999997615814209,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,real_only::Patch Transformer,Real only,Patch Transformer,Multiscale patches,0.9929904937744141,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.9616532325744629,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.9714683890342712,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Scale-space bands,0.9999490976333618,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.999993085861206,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.9999834299087524,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,SNV raw,0.999997615814209,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,SNV raw,0.999609649181366,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,SNV raw,0.9999594688415527,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.9990461468696594,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,SNV raw,0.9999953508377075,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,SNV raw,0.9999985694885254,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,SNV raw,0.9994531273841858,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,SNV raw,0.9616997838020325,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,SNV raw,0.9999508857727051,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,SNV raw,0.9981437921524048,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,SNV raw,0.990777850151062,1
+17,sick/.ipynb_checkpoints/A9_com Glomerulopatia-checkpoint,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,SNV raw,0.9996305704116821,1
+18,sick/A10_ com Nefrite lúpica,1,best_synthetic,Conditional WGAN-GP 30/class,Spectral Mixer,Scale-space bands,0.9797945618629456,1
+18,sick/A10_ com Nefrite lúpica,1,matched_real_only,Real only,Spectral Mixer,Scale-space bands,0.999772846698761,1
+18,sick/A10_ com Nefrite lúpica,1,final_cv_selected,Real only,Spectral Mixer,Scale-space bands,0.999772846698761,1
+18,sick/A10_ com Nefrite lúpica,1,runner_up_cv_pair,Real only,Patch Transformer,Scale-space bands,0.9854745864868164,1
+18,sick/A10_ com Nefrite lúpica,1,fixed_patch_snv_selected_aug,Real only,Patch Transformer,SNV raw,0.9908943176269531,1
+18,sick/A10_ com Nefrite lúpica,1,fixed_spectral_mixer_snv_selected_aug,Real only,Spectral Mixer,SNV raw,0.9999873638153076,1
+18,sick/A10_ com Nefrite lúpica,1,real_only::Patch Transformer,Real only,Patch Transformer,Scale-space bands,0.9854745864868164,1
+18,sick/A10_ com Nefrite lúpica,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,SNV raw,0.9995594620704651,1
+18,sick/A10_ com Nefrite lúpica,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.9908949136734009,1
+18,sick/A10_ com Nefrite lúpica,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Scale-space bands,0.999772846698761,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,Scale-space bands,0.9999990463256836,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,Scale-space bands,0.9949861764907837,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,Scale-space bands,0.9999986886978149,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,Scale-space bands,0.9925002455711365,1
+18,sick/A10_ com Nefrite lúpica,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,Scale-space bands,0.999981164932251,1
+18,sick/A10_ com Nefrite lúpica,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,Scale-space bands,0.9993257522583008,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,Scale-space bands,0.9999935626983643,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,Scale-space bands,0.9999990463256836,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,Scale-space bands,0.7043609619140625,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,Scale-space bands,0.9271607995033264,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,Scale-space bands,0.9999512434005737,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,Scale-space bands,0.9998304843902588,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,Scale-space bands,0.9994720816612244,1
+18,sick/A10_ com Nefrite lúpica,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,Scale-space bands,0.9797945618629456,1
+19,sick/A1_ com DCR,1,best_synthetic,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.9949435591697693,1
+19,sick/A1_ com DCR,1,matched_real_only,Real only,Spectral Mixer,SNV raw,0.9859061241149902,1
+19,sick/A1_ com DCR,1,final_cv_selected,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.9949435591697693,1
+19,sick/A1_ com DCR,1,runner_up_cv_pair,VP Flow Matching 30/class,Spectral Mixer,Gradient + shape,0.9734935164451599,1
+19,sick/A1_ com DCR,1,fixed_patch_snv_selected_aug,VP Flow Matching 30/class,Patch Transformer,SNV raw,0.9280540347099304,1
+19,sick/A1_ com DCR,1,fixed_spectral_mixer_snv_selected_aug,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.9949435591697693,1
+19,sick/A1_ com DCR,1,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.5913550853729248,1
+19,sick/A1_ com DCR,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,SNV raw,0.2511962354183197,0
+19,sick/A1_ com DCR,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,SNV raw,0.2945946156978607,0
+19,sick/A1_ com DCR,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Gradient + shape,0.9998948574066162,1
+19,sick/A1_ com DCR,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.997805655002594,1
+19,sick/A1_ com DCR,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.9819453358650208,1
+19,sick/A1_ com DCR,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,SNV raw,0.9994041919708252,1
+19,sick/A1_ com DCR,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,SNV raw,0.9978208541870117,1
+19,sick/A1_ com DCR,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,SNV raw,0.9753338098526001,1
+19,sick/A1_ com DCR,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.9949435591697693,1
+19,sick/A1_ com DCR,1,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,SNV raw,0.996707558631897,1
+19,sick/A1_ com DCR,1,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,SNV raw,0.9892932176589966,1
+19,sick/A1_ com DCR,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,SNV raw,0.9990898370742798,1
+19,sick/A1_ com DCR,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,SNV raw,0.9413443207740784,1
+19,sick/A1_ com DCR,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,SNV raw,0.9993150234222412,1
+19,sick/A1_ com DCR,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,SNV raw,0.9971182346343994,1
+19,sick/A1_ com DCR,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,SNV raw,0.9467355608940125,1
+19,sick/A1_ com DCR,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,SNV raw,0.9013550877571106,1
+20,sick/A2_ com DCR,1,best_synthetic,VP Flow Matching 30/class,Patch Transformer,SNV raw,0.5816888213157654,1
+20,sick/A2_ com DCR,1,matched_real_only,Real only,Patch Transformer,SNV raw,0.9059821367263794,1
+20,sick/A2_ com DCR,1,final_cv_selected,Real only,Patch Transformer,SNV raw,0.9059821367263794,1
+20,sick/A2_ com DCR,1,runner_up_cv_pair,Real only,Patch Transformer,Scale-space bands,0.8629060387611389,1
+20,sick/A2_ com DCR,1,fixed_patch_snv_selected_aug,Real only,Patch Transformer,SNV raw,0.9059821367263794,1
+20,sick/A2_ com DCR,1,fixed_spectral_mixer_snv_selected_aug,Real only,Spectral Mixer,SNV raw,0.9987573623657227,1
+20,sick/A2_ com DCR,1,real_only::Patch Transformer,Real only,Patch Transformer,SNV raw,0.9059821367263794,1
+20,sick/A2_ com DCR,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Frequency hybrid,0.34715431928634644,0
+20,sick/A2_ com DCR,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,SNV raw,0.4265400767326355,0
+20,sick/A2_ com DCR,1,real_only::Spectral Mixer,Real only,Spectral Mixer,SNV raw,0.9987573623657227,1
+20,sick/A2_ com DCR,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,SNV raw,0.9864906072616577,1
+20,sick/A2_ com DCR,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,SNV raw,0.7784838676452637,1
+20,sick/A2_ com DCR,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,SNV raw,0.9903247356414795,1
+20,sick/A2_ com DCR,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,SNV raw,0.9362359642982483,1
+20,sick/A2_ com DCR,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,SNV raw,0.7610917091369629,1
+20,sick/A2_ com DCR,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,SNV raw,0.5816888213157654,1
+20,sick/A2_ com DCR,1,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,SNV raw,0.9954159259796143,1
+20,sick/A2_ com DCR,1,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,SNV raw,0.9987736344337463,1
+20,sick/A2_ com DCR,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,SNV raw,0.9715266227722168,1
+20,sick/A2_ com DCR,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,SNV raw,0.694840669631958,1
+20,sick/A2_ com DCR,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,SNV raw,0.9925662279129028,1
+20,sick/A2_ com DCR,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9950944185256958,1
+20,sick/A2_ com DCR,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,SNV raw,0.8366111516952515,1
+20,sick/A2_ com DCR,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,SNV raw,0.8461824655532837,1
+21,sick/A3_ com DCR,1,best_synthetic,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.997032642364502,1
+21,sick/A3_ com DCR,1,matched_real_only,Real only,Spectral Mixer,SNV raw,0.9986261129379272,1
+21,sick/A3_ com DCR,1,final_cv_selected,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.997032642364502,1
+21,sick/A3_ com DCR,1,runner_up_cv_pair,Rectified Flow 30/class,Patch Transformer,SNV raw,0.23344138264656067,0
+21,sick/A3_ com DCR,1,fixed_patch_snv_selected_aug,Rectified Flow 30/class,Patch Transformer,SNV raw,0.23344138264656067,0
+21,sick/A3_ com DCR,1,fixed_spectral_mixer_snv_selected_aug,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.997032642364502,1
+21,sick/A3_ com DCR,1,real_only::Patch Transformer,Real only,Patch Transformer,Scale-space bands,0.9888964891433716,1
+21,sick/A3_ com DCR,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Multiscale patches,0.08829480409622192,0
+21,sick/A3_ com DCR,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.3086467981338501,0
+21,sick/A3_ com DCR,1,real_only::Spectral Mixer,Real only,Spectral Mixer,SNV raw,0.9986261129379272,1
+21,sick/A3_ com DCR,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.9848970174789429,1
+21,sick/A3_ com DCR,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.997032642364502,1
+21,sick/A3_ com DCR,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,SNV raw,0.9830520153045654,1
+21,sick/A3_ com DCR,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,SNV raw,0.9957001209259033,1
+21,sick/A3_ com DCR,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,SNV raw,0.9973057508468628,1
+21,sick/A3_ com DCR,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.9971018433570862,1
+21,sick/A3_ com DCR,1,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,SNV raw,0.9994571805000305,1
+21,sick/A3_ com DCR,1,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,SNV raw,0.9879912734031677,1
+21,sick/A3_ com DCR,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,SNV raw,0.9999939203262329,1
+21,sick/A3_ com DCR,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,SNV raw,0.9998683929443359,1
+21,sick/A3_ com DCR,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,SNV raw,0.9996973276138306,1
+21,sick/A3_ com DCR,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,SNV raw,0.9997966885566711,1
+21,sick/A3_ com DCR,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,SNV raw,0.9987056255340576,1
+21,sick/A3_ com DCR,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,SNV raw,0.9931979179382324,1
+22,sick/A4_ com DCR,1,best_synthetic,Conditional WGAN-GP 30/class,Patch Transformer,Scale-space bands,0.9083418846130371,1
+22,sick/A4_ com DCR,1,matched_real_only,Real only,Patch Transformer,Scale-space bands,0.6897531151771545,1
+22,sick/A4_ com DCR,1,final_cv_selected,Conditional WGAN-GP 30/class,Patch Transformer,Scale-space bands,0.9083418846130371,1
+22,sick/A4_ com DCR,1,runner_up_cv_pair,Conditional WGAN-GP 30/class,Patch Transformer,Multiscale patches,0.9966075420379639,1
+22,sick/A4_ com DCR,1,fixed_patch_snv_selected_aug,Conditional WGAN-GP 30/class,Patch Transformer,SNV raw,0.9824100732803345,1
+22,sick/A4_ com DCR,1,fixed_spectral_mixer_snv_selected_aug,Conditional WGAN-GP 30/class,Spectral Mixer,SNV raw,0.9998331069946289,1
+22,sick/A4_ com DCR,1,real_only::Patch Transformer,Real only,Patch Transformer,Frequency hybrid,0.02936374768614769,0
+22,sick/A4_ com DCR,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Scale-space bands,0.3330160081386566,0
+22,sick/A4_ com DCR,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.08203396201133728,0
+22,sick/A4_ com DCR,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Gradient + shape,0.999502420425415,1
+22,sick/A4_ com DCR,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,Scale-space bands,0.9743502140045166,1
+22,sick/A4_ com DCR,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,Scale-space bands,0.8178615570068359,1
+22,sick/A4_ com DCR,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,Scale-space bands,0.4827611446380615,0
+22,sick/A4_ com DCR,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,Scale-space bands,0.7551384568214417,1
+22,sick/A4_ com DCR,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,Scale-space bands,0.5854435563087463,1
+22,sick/A4_ com DCR,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,Scale-space bands,0.920963704586029,1
+22,sick/A4_ com DCR,1,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,Scale-space bands,0.9962450861930847,1
+22,sick/A4_ com DCR,1,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,Scale-space bands,0.9826563596725464,1
+22,sick/A4_ com DCR,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,Scale-space bands,0.06238799914717674,0
+22,sick/A4_ com DCR,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,Scale-space bands,0.9190378189086914,1
+22,sick/A4_ com DCR,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,Scale-space bands,0.9971694350242615,1
+22,sick/A4_ com DCR,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,Scale-space bands,0.9050170183181763,1
+22,sick/A4_ com DCR,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,Scale-space bands,0.9759128093719482,1
+22,sick/A4_ com DCR,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,Scale-space bands,0.9083418846130371,1
+23,sick/A5_ com DCR,1,best_synthetic,Stochastic Interpolant 30/class,Spectral Mixer,Gradient + shape,0.999159574508667,1
+23,sick/A5_ com DCR,1,matched_real_only,Real only,Spectral Mixer,Gradient + shape,0.9999754428863525,1
+23,sick/A5_ com DCR,1,final_cv_selected,Stochastic Interpolant 30/class,Spectral Mixer,Gradient + shape,0.999159574508667,1
+23,sick/A5_ com DCR,1,runner_up_cv_pair,Stochastic Interpolant 30/class,Patch Transformer,Scale-space bands,0.9938200116157532,1
+23,sick/A5_ com DCR,1,fixed_patch_snv_selected_aug,Stochastic Interpolant 30/class,Patch Transformer,SNV raw,0.9775617718696594,1
+23,sick/A5_ com DCR,1,fixed_spectral_mixer_snv_selected_aug,Stochastic Interpolant 30/class,Spectral Mixer,SNV raw,0.9996896982192993,1
+23,sick/A5_ com DCR,1,real_only::Patch Transformer,Real only,Patch Transformer,Multiscale patches,0.9916737675666809,1
+23,sick/A5_ com DCR,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Multiscale patches,0.9985572695732117,1
+23,sick/A5_ com DCR,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.9957897067070007,1
+23,sick/A5_ com DCR,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Multiscale patches,0.9999053478240967,1
+23,sick/A5_ com DCR,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,Gradient + shape,0.9999912977218628,1
+23,sick/A5_ com DCR,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,Gradient + shape,0.9998183846473694,1
+23,sick/A5_ com DCR,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,Gradient + shape,0.9999984502792358,1
+23,sick/A5_ com DCR,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,Gradient + shape,0.999159574508667,1
+23,sick/A5_ com DCR,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,Gradient + shape,0.999679446220398,1
+23,sick/A5_ com DCR,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,Gradient + shape,0.9999853372573853,1
+23,sick/A5_ com DCR,1,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,Gradient + shape,0.9999991655349731,1
+23,sick/A5_ com DCR,1,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,Gradient + shape,0.9999834299087524,1
+23,sick/A5_ com DCR,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,Gradient + shape,0.9997212290763855,1
+23,sick/A5_ com DCR,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,Gradient + shape,0.9982241988182068,1
+23,sick/A5_ com DCR,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,Gradient + shape,0.999980092048645,1
+23,sick/A5_ com DCR,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,Gradient + shape,0.9997014403343201,1
+23,sick/A5_ com DCR,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,Gradient + shape,0.9983518123626709,1
+23,sick/A5_ com DCR,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,Gradient + shape,0.9980694651603699,1
+24,sick/A6_com DCR,1,best_synthetic,Latent EDM 30/class,ModernTCN-lite,Gradient + shape,0.9993249177932739,1
+24,sick/A6_com DCR,1,matched_real_only,Real only,ModernTCN-lite,Gradient + shape,0.9958381652832031,1
+24,sick/A6_com DCR,1,final_cv_selected,Real only,ModernTCN-lite,Gradient + shape,0.9958381652832031,1
+24,sick/A6_com DCR,1,runner_up_cv_pair,Real only,Spectral Mixer,Scale-space bands,0.9999958276748657,1
+24,sick/A6_com DCR,1,fixed_patch_snv_selected_aug,Real only,Patch Transformer,SNV raw,0.9933912754058838,1
+24,sick/A6_com DCR,1,fixed_spectral_mixer_snv_selected_aug,Real only,Spectral Mixer,SNV raw,0.9999774694442749,1
+24,sick/A6_com DCR,1,real_only::Patch Transformer,Real only,Patch Transformer,Frequency hybrid,0.9914999604225159,1
+24,sick/A6_com DCR,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.9958381652832031,1
+24,sick/A6_com DCR,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Scale-space bands,0.9904531240463257,1
+24,sick/A6_com DCR,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Scale-space bands,0.9999958276748657,1
+24,sick/A6_com DCR,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,ModernTCN-lite,Gradient + shape,0.9632608294487,1
+24,sick/A6_com DCR,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,ModernTCN-lite,Gradient + shape,0.9882475733757019,1
+24,sick/A6_com DCR,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,ModernTCN-lite,Gradient + shape,0.949447751045227,1
+24,sick/A6_com DCR,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,ModernTCN-lite,Gradient + shape,0.972606897354126,1
+24,sick/A6_com DCR,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,ModernTCN-lite,Gradient + shape,0.9818060398101807,1
+24,sick/A6_com DCR,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,ModernTCN-lite,Gradient + shape,0.9790078401565552,1
+24,sick/A6_com DCR,1,generator::Latent EDM 12/class,Latent EDM 12/class,ModernTCN-lite,Gradient + shape,0.9985668063163757,1
+24,sick/A6_com DCR,1,generator::Latent EDM 30/class,Latent EDM 30/class,ModernTCN-lite,Gradient + shape,0.9993249177932739,1
+24,sick/A6_com DCR,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,ModernTCN-lite,Gradient + shape,0.8698615431785583,1
+24,sick/A6_com DCR,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,ModernTCN-lite,Gradient + shape,0.9072353839874268,1
+24,sick/A6_com DCR,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,ModernTCN-lite,Gradient + shape,0.9881457090377808,1
+24,sick/A6_com DCR,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,ModernTCN-lite,Gradient + shape,0.9861517548561096,1
+24,sick/A6_com DCR,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,ModernTCN-lite,Gradient + shape,0.9635394215583801,1
+24,sick/A6_com DCR,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,ModernTCN-lite,Gradient + shape,0.9789943695068359,1
+25,sick/A7_com LRA,1,best_synthetic,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.9992058873176575,1
+25,sick/A7_com LRA,1,matched_real_only,Real only,Spectral Mixer,SNV raw,0.9999852180480957,1
+25,sick/A7_com LRA,1,final_cv_selected,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.9992058873176575,1
+25,sick/A7_com LRA,1,runner_up_cv_pair,Rectified Flow 30/class,Spectral Mixer,Scale-space bands,0.9995614886283875,1
+25,sick/A7_com LRA,1,fixed_patch_snv_selected_aug,Rectified Flow 30/class,Patch Transformer,SNV raw,0.9794238805770874,1
+25,sick/A7_com LRA,1,fixed_spectral_mixer_snv_selected_aug,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.9992058873176575,1
+25,sick/A7_com LRA,1,real_only::Patch Transformer,Real only,Patch Transformer,Scale-space bands,0.9858257174491882,1
+25,sick/A7_com LRA,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Gradient + shape,0.982106626033783,1
+25,sick/A7_com LRA,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.9930659532546997,1
+25,sick/A7_com LRA,1,real_only::Spectral Mixer,Real only,Spectral Mixer,SNV raw,0.9999852180480957,1
+25,sick/A7_com LRA,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,SNV raw,0.999919056892395,1
+25,sick/A7_com LRA,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.9992058873176575,1
+25,sick/A7_com LRA,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,SNV raw,0.9998724460601807,1
+25,sick/A7_com LRA,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,SNV raw,0.9989715814590454,1
+25,sick/A7_com LRA,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,SNV raw,0.9999730587005615,1
+25,sick/A7_com LRA,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,SNV raw,0.9926687479019165,1
+25,sick/A7_com LRA,1,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,SNV raw,0.9999998807907104,1
+25,sick/A7_com LRA,1,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,SNV raw,0.9999997615814209,1
+25,sick/A7_com LRA,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,SNV raw,0.9601604342460632,1
+25,sick/A7_com LRA,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,SNV raw,0.9784032106399536,1
+25,sick/A7_com LRA,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,SNV raw,0.9999998807907104,1
+25,sick/A7_com LRA,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,SNV raw,0.9999996423721313,1
+25,sick/A7_com LRA,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,SNV raw,0.9807016253471375,1
+25,sick/A7_com LRA,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,SNV raw,0.993273138999939,1
+26,sick/A8_com LRA,1,best_synthetic,Rectified Flow 30/class,Patch Transformer,SNV raw,0.9948685169219971,1
+26,sick/A8_com LRA,1,matched_real_only,Real only,Patch Transformer,SNV raw,0.9930092096328735,1
+26,sick/A8_com LRA,1,final_cv_selected,Rectified Flow 30/class,Patch Transformer,SNV raw,0.9948685169219971,1
+26,sick/A8_com LRA,1,runner_up_cv_pair,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.9993205070495605,1
+26,sick/A8_com LRA,1,fixed_patch_snv_selected_aug,Rectified Flow 30/class,Patch Transformer,SNV raw,0.9948685169219971,1
+26,sick/A8_com LRA,1,fixed_spectral_mixer_snv_selected_aug,Rectified Flow 30/class,Spectral Mixer,SNV raw,0.9993205070495605,1
+26,sick/A8_com LRA,1,real_only::Patch Transformer,Real only,Patch Transformer,Gradient + shape,0.9931409955024719,1
+26,sick/A8_com LRA,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Scale-space bands,0.9991421699523926,1
+26,sick/A8_com LRA,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Gradient + shape,0.9628388285636902,1
+26,sick/A8_com LRA,1,real_only::Spectral Mixer,Real only,Spectral Mixer,SNV raw,0.9999853372573853,1
+26,sick/A8_com LRA,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Patch Transformer,SNV raw,0.988679826259613,1
+26,sick/A8_com LRA,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Patch Transformer,SNV raw,0.9948685169219971,1
+26,sick/A8_com LRA,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Patch Transformer,SNV raw,0.977754533290863,1
+26,sick/A8_com LRA,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Patch Transformer,SNV raw,0.9921149611473083,1
+26,sick/A8_com LRA,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Patch Transformer,SNV raw,0.9647830128669739,1
+26,sick/A8_com LRA,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Patch Transformer,SNV raw,0.994448184967041,1
+26,sick/A8_com LRA,1,generator::Latent EDM 12/class,Latent EDM 12/class,Patch Transformer,SNV raw,0.9942135214805603,1
+26,sick/A8_com LRA,1,generator::Latent EDM 30/class,Latent EDM 30/class,Patch Transformer,SNV raw,0.9958475828170776,1
+26,sick/A8_com LRA,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Patch Transformer,SNV raw,0.9943515062332153,1
+26,sick/A8_com LRA,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Patch Transformer,SNV raw,0.9943622350692749,1
+26,sick/A8_com LRA,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Patch Transformer,SNV raw,0.9830374121665955,1
+26,sick/A8_com LRA,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9959710240364075,1
+26,sick/A8_com LRA,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Patch Transformer,SNV raw,0.9949793219566345,1
+26,sick/A8_com LRA,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Patch Transformer,SNV raw,0.9960635304450989,1
+27,sick/A9_com Glomerulopatia,1,best_synthetic,Conditional GAN 30/class,Spectral Mixer,Multiscale patches,0.9993071556091309,1
+27,sick/A9_com Glomerulopatia,1,matched_real_only,Real only,Spectral Mixer,Multiscale patches,0.9781723022460938,1
+27,sick/A9_com Glomerulopatia,1,final_cv_selected,Conditional GAN 30/class,Spectral Mixer,Multiscale patches,0.9993071556091309,1
+27,sick/A9_com Glomerulopatia,1,runner_up_cv_pair,Conditional GAN 30/class,ModernTCN-lite,Scale-space bands,0.9996565580368042,1
+27,sick/A9_com Glomerulopatia,1,fixed_patch_snv_selected_aug,Conditional GAN 30/class,Patch Transformer,SNV raw,0.9899051785469055,1
+27,sick/A9_com Glomerulopatia,1,fixed_spectral_mixer_snv_selected_aug,Conditional GAN 30/class,Spectral Mixer,SNV raw,0.9984672665596008,1
+27,sick/A9_com Glomerulopatia,1,real_only::Patch Transformer,Real only,Patch Transformer,Multiscale patches,0.9896355271339417,1
+27,sick/A9_com Glomerulopatia,1,real_only::ModernTCN-lite,Real only,ModernTCN-lite,Multiscale patches,0.9995219707489014,1
+27,sick/A9_com Glomerulopatia,1,real_only::ConvNeXt-1D,Real only,ConvNeXt-1D,Scale-space bands,0.9933340549468994,1
+27,sick/A9_com Glomerulopatia,1,real_only::Spectral Mixer,Real only,Spectral Mixer,Multiscale patches,0.9781723022460938,1
+27,sick/A9_com Glomerulopatia,1,generator::Rectified Flow 12/class,Rectified Flow 12/class,Spectral Mixer,Multiscale patches,0.9993583559989929,1
+27,sick/A9_com Glomerulopatia,1,generator::Rectified Flow 30/class,Rectified Flow 30/class,Spectral Mixer,Multiscale patches,0.9999542236328125,1
+27,sick/A9_com Glomerulopatia,1,generator::Stochastic Interpolant 12/class,Stochastic Interpolant 12/class,Spectral Mixer,Multiscale patches,0.9994280934333801,1
+27,sick/A9_com Glomerulopatia,1,generator::Stochastic Interpolant 30/class,Stochastic Interpolant 30/class,Spectral Mixer,Multiscale patches,0.9998461008071899,1
+27,sick/A9_com Glomerulopatia,1,generator::VP Flow Matching 12/class,VP Flow Matching 12/class,Spectral Mixer,Multiscale patches,0.9992528557777405,1
+27,sick/A9_com Glomerulopatia,1,generator::VP Flow Matching 30/class,VP Flow Matching 30/class,Spectral Mixer,Multiscale patches,0.9998083710670471,1
+27,sick/A9_com Glomerulopatia,1,generator::Latent EDM 12/class,Latent EDM 12/class,Spectral Mixer,Multiscale patches,0.9999963045120239,1
+27,sick/A9_com Glomerulopatia,1,generator::Latent EDM 30/class,Latent EDM 30/class,Spectral Mixer,Multiscale patches,0.999991774559021,1
+27,sick/A9_com Glomerulopatia,1,generator::Conditional DDPM 12/class,Conditional DDPM 12/class,Spectral Mixer,Multiscale patches,0.9982479810714722,1
+27,sick/A9_com Glomerulopatia,1,generator::Conditional DDPM 30/class,Conditional DDPM 30/class,Spectral Mixer,Multiscale patches,0.9999583959579468,1
+27,sick/A9_com Glomerulopatia,1,generator::Conditional GAN 12/class,Conditional GAN 12/class,Spectral Mixer,Multiscale patches,0.9999122619628906,1
+27,sick/A9_com Glomerulopatia,1,generator::Conditional GAN 30/class,Conditional GAN 30/class,Spectral Mixer,Multiscale patches,0.9993071556091309,1
+27,sick/A9_com Glomerulopatia,1,generator::Conditional WGAN-GP 12/class,Conditional WGAN-GP 12/class,Spectral Mixer,Multiscale patches,0.9887789487838745,1
+27,sick/A9_com Glomerulopatia,1,generator::Conditional WGAN-GP 30/class,Conditional WGAN-GP 30/class,Spectral Mixer,Multiscale patches,0.9606435894966125,1
